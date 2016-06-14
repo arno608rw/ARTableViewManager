@@ -7,54 +7,189 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0001C80451E427E228F783B0D556F559 /* Card_Discover.png in Sources */ = {isa = PBXBuildFile; fileRef = DB006F6565F0003FEB2A15ED79AFE1B3 /* Card_Discover.png */; };
+		006DD470C17458733B85E4DE452AC1D6 /* ARTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BB360F9FCEA3E5DE0CFE45F1C0E435 /* ARTableViewManager-dummy.m */; };
+		020C599CDC2460F2B96F447B5E507191 /* Card_Stack.png in Sources */ = {isa = PBXBuildFile; fileRef = 9C560DA7758C2D4A9454C8F6DC4D6525 /* Card_Stack.png */; };
+		03B0589F6BD8A0A32152393B01541E48 /* NSError+REValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD732232269C80E6C160ADB1D1D0D4C5 /* NSError+REValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03EB0C3DCF66BBF00C29F94357F96B87 /* RETableViewSegmentedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A268840376CDC5CEC64FF835D559C86 /* RETableViewSegmentedCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D337329ACA617CA6B9F2249D5189BE /* RETableViewPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4DC4DBF9104344C6FF1E9AD13A101C /* RETableViewPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC846BF57A741DD5CDCF98A5C07821E /* RETableViewInlinePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1545D80C2212732AECA5D7A3F7262BDA /* RETableViewInlinePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BFAAE3718C0FEC28F9434FE4E9639FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */; };
 		0CA95059C7595DFE24B20F8791F6334D /* Pods-ARTableViewManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDC59239C70AE9CE5B13D4ADF518C57 /* Pods-ARTableViewManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2112147375616BAF034ED021A7807559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		32C1C1A3AAF8EA7056B9190231D2834F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC60F127D79B6365A862CEF76ADEF4A9 /* ReplaceMe.m */; };
-		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		4A21BFB52E6963C14A511F278719ACCE /* ARTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BAF23C7F2F837DCDF2BD68041BA6FF5 /* ARTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E4C9E8EF4436185195133AA4EF610EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */; };
-		78C388F4730062B38A350F7C9C017030 /* Pods-ARTableViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B6C1CE99C4969E17A0A37DF5345217 /* Pods-ARTableViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		8AC6A6B4BCF6220A1C708F292548FC08 /* ARTableViewManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BBD026E2DA1CB5EEAC7CBD448570BA7E /* ARTableViewManager.bundle */; };
-		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		B502E8F6624D17B2581477A2FD7E21C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		0F30F30B7C6FA338D6718C750B3C269C /* REFormattedNumberField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1266EE25D40A06773A9151FFD1E1FBFA /* REFormattedNumberField-dummy.m */; };
+		1072ECE345868C3880598E5E2A3475FA /* REBoolItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9450AA3FCF37786995BAF2F831B937C8 /* REBoolItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11982122A9FA0147381DE1F44DC2EFCB /* UIButtonBarArrowRight@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 0D48DFCE129FE8B34C3ACF33C755FBC5 /* UIButtonBarArrowRight@2x.png */; };
+		11AA4961F2E01832D058090DEF204966 /* UIButtonBarArrowLeft@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F2B585E8AEAE66D9D75AB0794B0680E7 /* UIButtonBarArrowLeft@2x.png */; };
+		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BB47B10ED4B1CE12467BCC39BAD0BB /* UIImage+Compare.m */; };
+		127D62734D50338A5097C100402C6B07 /* REEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 388A4579B82CC185319D49EE348EE6C9 /* REEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FCF613633D6D94D649A2AA4310941D /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1743E6039BC0B108EB86D9D5327DD82F /* REFormattedNumberField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1C217DC66A676710C26B64D711028B /* REFormattedNumberField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EA966D13E22A98987203FCD592396E /* RETableViewInlineDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8345E91CBBA4621200C9130FEEF1A2C7 /* RETableViewInlineDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198C306143FA766A074A6B6E2C607F42 /* RETableViewTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 410B9E7455DB3CFBB4035E3AE71A859F /* RETableViewTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB27504F8A32BD7AF7EC189127036A6 /* Card_Discover@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2645D529DBE5F777CE64F8C743015E90 /* Card_Discover@2x.png */; };
+		20ABFE0F5F79B826D541865BFDE6E6B8 /* RETableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AFD3D91E18C52947408FDCF6061FD7 /* RETableViewItem.m */; };
+		2445159EE42E5F5243A37CB5405595F9 /* RETableViewDateTimeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F85FD574E46A363FB3E1FEC3192D42 /* RETableViewDateTimeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		248DF5D23E1A402B37578E4A1603CFA8 /* NSBundle+RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9D3C6DAE7543273131E3A0D362867 /* NSBundle+RETableViewManager.m */; };
+		271C6FC9EAC1BAFCDA231066981AB1B1 /* REFormattedNumberField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B2FA7B141AB7FDDEF3A6B5A0C5FB9D /* REFormattedNumberField.framework */; };
+		27AB0CC1473C3863F3D068F736233364 /* REValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ED61C0CC6E1784F9366C159326BF6 /* REValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		286136495B774A4280F8600CB6F60A64 /* REValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EE375991ACFCE160C8EDCC212E1545 /* REValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7E47792CF94DDA7BB0C0F43CECE6FA /* UIButtonBarArrowLeft.png in Sources */ = {isa = PBXBuildFile; fileRef = FC68720AB2C936ECE094E4CDA9C996E9 /* UIButtonBarArrowLeft.png */; };
+		2C361D7E2216D2047C53D586A22E1EE6 /* REURLValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E72810F2E16DA2D74252B317FBAC41ED /* REURLValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFCE986F0E37E6F44BDBAE6F15E2FAD /* UIApplication+StrictKeyWindow.m */; };
+		2D7D8181A1196AC385B7706FF15DA5D6 /* RETableViewManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85FDA3EEFE6D698BCF0E8045B5B6B390 /* RETableViewManager.bundle */; };
+		2DED12567E3571C76AED777C931A62C4 /* Transparent@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8230709876263968BCF93D55A401EC2F /* Transparent@2x.png */; };
+		2F64899C5D23D86D9F088D766CA14471 /* RETableViewCellStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7FF371F15D71B7A58A3276B573D3A8 /* RETableViewCellStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD8A7B2AD03EE4C8A8AE8D353A1E298 /* REFloatItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D69F572FF117C8232750B39B7F29805F /* REFloatItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D7F56DD95C92B65986B22C50FCDB69 /* REInlinePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 747B6B293A73112FEC3E3223255DB155 /* REInlinePickerItem.m */; };
+		327EF0779682B3B394DA26DC032943BC /* RECreditCardItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3976A68946B0F5BD639D86DC8FA22196 /* RECreditCardItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 649854F9F753D498E5C5C8B0E58B37E7 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		35DDEF0D7832731EE2CA8908BDB2B010 /* Card_Visa.png in Sources */ = {isa = PBXBuildFile; fileRef = 4D4DBC645DCB2D8E152893225C905EBA /* Card_Visa.png */; };
+		3D40CE418A623DC52113D9EBB88E19E5 /* REPresenceValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC4EE43683A6322F59DA77138AF27AE /* REPresenceValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D7C08730F2FBCF2ABCFFB2BEA886CDD /* RENumberItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DEDDFB12F3CDEE95BD47F56D4AED9E08 /* RENumberItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DB01DECE55708AA31D10A15BF60FFB8 /* RETableViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 66818DC23B4487E02E9ACD8B11AA1BB9 /* RETableViewSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41CA54F2F0BB33BB0CA73142E53BB0EA /* NSError+REValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9877ABD48683027E649C89D565DF8 /* NSError+REValidation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47684CE1E4BB863963311336AAD38706 /* REEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6C538F44180CE2544A270478B8BAA /* REEmailValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48673763E9EE4B9D14836176A10D0FBE /* REValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC5D803FEEBAE6E0E3AFF956AC5ECBE /* REValidation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		489CB620C327EAE336C1B80E558BA429 /* RERadioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE8FA410800E88A3DDD2507BCDFBD64 /* RERadioItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4910812ECBD966E9188959E5B520CFF9 /* Card_Mastercard.png in Sources */ = {isa = PBXBuildFile; fileRef = 91DA26462B27B96B080AD98E54FAB44A /* Card_Mastercard.png */; };
+		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A26266091223BC76FBCE01BCFDA0F14 /* FBSnapshotTestCase-dummy.m */; };
+		4C4492DF5D6CB64541558CC5F05E0727 /* REFormattedNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = E476569C4416C1DDD0169B6D07DCEDBE /* REFormattedNumberField.m */; };
+		4D5F4637FCD0FC08A907C2EE7E95238F /* RETableViewFloatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F5D5C727094FF9F6A2F3B738237B /* RETableViewFloatCell.m */; };
+		4DA499E95A8CB04A687F775663014D69 /* RETextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 163E0BA0F68334E36897DC5180A57C44 /* RETextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FE78145551D1C500649165DBDE340F9 /* REValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C66080CD3DD1B3A1B35639F585A956 /* REValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5067139BB20D8936BD7F148535DC25E6 /* NSBundle+RETableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5121A8C101C8BE881E1E84B220DFDE74 /* NSBundle+RETableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5248261B7550103F7FAC5BEBCEC145AE /* RERadioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 965CC3B23A0D852F9D3A70EDD012E8ED /* RERadioItem.m */; };
+		537DBAC00861C93D3E7BB47F6C9E142B /* Card_Mastercard@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1436145C3E6CBEF1DD8C160C0475E279 /* Card_Mastercard@2x.png */; };
+		5393397CC46FA77981FE45145F881DDB /* NSString+RENumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C203E0724787726E01AE214DF1914A /* NSString+RENumberFormat.m */; };
+		545DE84FF7E49A73C96104E0B744578A /* REFloatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9715D1228EBFB7CAF8C5F617621CF7FE /* REFloatItem.m */; };
+		54DA74767F917BE22F48F1F44E210115 /* REPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FBD339E2EE8E1A5C52F1D950F528D1 /* REPickerItem.m */; };
+		5591A87AC4762F4A98ABB74F442A1882 /* RETableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04B8375DF0F6929147B0E0A357B471 /* RETableViewSection.m */; };
+		586B16EE3F29F8898E66F8924155077A /* RECreditCardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CF0D63D7796F84A7FE9C96283F4D11 /* RECreditCardItem.m */; };
+		5A33E853DBF543ACF364845DB208B4C5 /* RETableViewCreditCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB6FE15464D6DF4F40A395F8398D01 /* RETableViewCreditCardCell.m */; };
+		5D9DB9A61436C93ADFE2F247D73E088A /* RETableViewOptionsController.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7E00377B96E6D40A9B14BF72ECA7BA /* RETableViewOptionsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4C9E8EF4436185195133AA4EF610EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */; };
+		60905D7403B8B1CA81994DECB658AF5E /* REInlineDatePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 803F67A4C37000D7A14FD396A23D46F3 /* REInlineDatePickerItem.m */; };
+		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C98635A97CB245927E2B2C2211F15AD /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		66E7ED1BCB6539CB9542312E9723C19B /* REDateTimeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441FB99FF0AFB0BDFCB2EE5A260DED5 /* REDateTimeItem.m */; };
+		66EEFE5F983E27BCFDBDBF66EACB3CFC /* Card_Back.png in Sources */ = {isa = PBXBuildFile; fileRef = 7BC28882025037A7ABF7C215D820A370 /* Card_Back.png */; };
+		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3FE8F1BFF93F2D538280AB55E5B687 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 736876830440C13AF4A6F105562E4B4D /* FBSnapshotTestCase.m */; };
+		696DAB119B1F9F94FA28A8DC2F4BF7CA /* RETableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FCC6F9FFE2B952DFDDC99D061F84AC2 /* RETableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A58D5C738D8F243CABBCB20458F3FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */; };
+		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = B02D30300AC77A171C294BBE271B9505 /* FBSnapshotTestCasePlatform.m */; };
+		6ECE1F8F57C8AC0876931F8A530B232A /* RETableViewBoolCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 80269A0FFD34778A857F48D10878697C /* RETableViewBoolCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F6CD2B196A1F42BFE9C52D7AA18039C /* RETableViewTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA39F9EB89A8BB8954C662357C7923 /* RETableViewTextCell.m */; };
+		6FF78A3D906C40931D7A18051B7171E9 /* RETableViewInlinePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EE889810DF455040BB50797E29150 /* RETableViewInlinePickerCell.m */; };
+		6FFB4F301D53358B7FCD820282431A38 /* ARTableViewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0477EC077BA24B2A207D16C7EC0DF66F /* ARTableViewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702A88881C2E45B36B647C1E55A07FAF /* RETableViewCreditCardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1F9B58D9B4281D74765721003DB474 /* RETableViewCreditCardCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702C8B132C5B147D6FA78AA2BAD37E84 /* RELongTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B90E573A95B195159395E5FE5541A2 /* RELongTextItem.m */; };
+		728923C86916AE9D2BB5FAD3011D6972 /* REActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DF760DDF095DB0992830BB37C3F6D5EE /* REActionBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D6C46696FE12F4E1276A16B485C3B6 /* XCTest.framework */; };
+		750304194F20DC33B25F826F82676DD8 /* REInlinePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B9781D8F232232347BD756F399D29C35 /* REInlinePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760EE1B5B8423A19D084A7299CBB0A99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */; };
+		77525FF155EDFCFB29A09124AB3FCEC7 /* RETableViewBoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA48B92D38E4CE7B6C9B0E23EA06E25F /* RETableViewBoolCell.m */; };
+		7AD1E9B720823EA677C45F89FFDBEE3E /* RETableViewPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4157891D8F4E2F092A96A653BC05A5 /* RETableViewPickerCell.m */; };
+		7C82393E70967B41B5262DEA0370FD1D /* Card_Back@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 635D45FAD1E32968F4B089EDE39243FB /* Card_Back@2x.png */; };
+		7C9D4BB5150D99D40E42FF2D28DB1858 /* REURLValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1045E6B71B9C8EE8A55333489639F7 /* REURLValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F4C85AA5DA643C1B4C3BCD37BE3FEAF /* NSString+RETableViewManagerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B85AB1624B574AFAE2A0E75D19958B /* NSString+RETableViewManagerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814A4965844AFEE158B8D18F3A8B6A11 /* REPickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAC216F919813B05635340195B2F8B7 /* REPickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85364264894BA1A9268B3B2CE6CC4BAC /* REInlineDatePickerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC5DBF6C0BD47DCC7A749CAFADCD4B6 /* REInlineDatePickerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855D388BEBF9CC088B247FDF29E6FD63 /* RETableViewSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5CC371D82D1379381E7F6A7925F4 /* RETableViewSegmentedCell.m */; };
+		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B73C5732CBDEDF00E56D06B43F62D9 /* SwiftSupport.swift */; };
+		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0D38F166D546B1C3B462D93B7A21B1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D80EB2E95687338A21C8A2B4C676ECC /* RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F76663CE6E67E360AA63E05ACDFCD5 /* RETableViewManager.m */; };
+		91F00C5FD0F624345B255202FC9990ED /* RETableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BEAD8EC84014419A50F9547A59E5629 /* RETableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B9CC2EB7A0E2BE4533678E0858F182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */; };
+		968E218EF6C8AF342F38B8F1AE51C087 /* RETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE5691723CEDAC2E147A2D304258B6 /* RETableViewCell.m */; };
+		996466283E872022A7FFD7F64861A4D0 /* RETableViewOptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596ED794622439252049F1DAD887751F /* RETableViewOptionsController.m */; };
+		9A36321CE5F6E0CA401FF0037A3BCFE1 /* RENumberItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A025E263655456BAA0D844074E24C /* RENumberItem.m */; };
+		9C23A995916F8ACCCBE4DFBCCE2FADBC /* Card_Visa@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = AEEBB42EE0DB4A338873164DF1572511 /* Card_Visa@2x.png */; };
+		9CB42291C423A88FFFBF6105393677ED /* RETableViewDateTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FFF9FE5760BA71AD72D3DF44BA82CC /* RETableViewDateTimeCell.m */; };
+		9CD222C1BB44B4B0D55133BAAAD755FF /* REMultipleChoiceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA121B73737198852B5EE212DECECC /* REMultipleChoiceItem.m */; };
+		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B77A2DA815C33D1B4E67749A902E81B /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */; };
+		AA6A9C80F04F3B1B49B50A3F571EB672 /* Card_Stack@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 49F1A5778C2392ECEE1AA4B4947664FF /* Card_Stack@2x.png */; };
+		AADEEA57DB892C16FB064B1377DA04B7 /* NSString+RETableViewManagerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CDB713EF10CBA6A2CCCB056340CA17 /* NSString+RETableViewManagerAdditions.m */; };
+		AC4C82F6003A84FC44674A14594303F0 /* REFormattedNumberField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3F081BFBBA8933D655CB4913D4FFD3 /* REFormattedNumberField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF117E1A740BEEA046E9767E3CECFBC /* RESegmentedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F35102F8704D30DBE74603D5FAECD4 /* RESegmentedItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFDB63A7112C1D8C402168B4E542F68B /* RELongTextItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF38817A3990DC3876899D3C1AC556A /* RELongTextItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BB7BED68279AF384774C0D8BF8039F /* RESegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3497B484CE59D84FFEB16EF3B9B3E3 /* RESegmentedItem.m */; };
+		B192709E6E039BCE86001D01AB41C83B /* RETableViewLongTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 33723863A6E46B661480E814CD704FC0 /* RETableViewLongTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB5EDE129FBB0D6BC0C345C5C683AC7 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8568A60FE94CD778AC8C68D89C8F604 /* REPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719CBD6CBE52B807F5ECD8FD867BBB84 /* REPlaceholderTextView.m */; };
+		B91E22F59642AADC865AF3ED1D41089E /* RELengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 828845428C77E38C8C41E10C284D164D /* RELengthValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BACEE5E75561ADBD536C7B36E13E4BF1 /* REMultipleChoiceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A10A0951586EFA8519BCDEAE232BBB0E /* REMultipleChoiceItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB935E0D7503310129F1B3BEECBA46AC /* REValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC22D6FAC8B6197088BEDBC56233A050 /* REValidation.framework */; };
+		BBF8A0F9B11C2A7AEF02CBCAD33E1A8C /* Card_Amex@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3C8A70C67646878573D713C0E9AE6 /* Card_Amex@2x.png */; };
+		BFBE68E6DFFC9F057A416F51024D6573 /* RELengthValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C9277A05AF44928D96B5CE5336E755 /* RELengthValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C22F42D73CBC207ED800B3F5E9AD5106 /* REDateTimeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DB449E85D4D337A633677116FFD29358 /* REDateTimeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C3C99A735D32FA8B84998A8D353A5 /* UIImage+Diff.m */; };
+		C3E08CE72354FA54ACC1192006804D0F /* RETableViewLongTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF177B35BDF3DF532A180103DE4D52 /* RETableViewLongTextCell.m */; };
+		C433704FF7503FB5F77BD3846439AF85 /* REValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B51D31481D4E3B71FC13DDCD72669F4A /* REValidation-dummy.m */; };
+		C6E220AA4EFD1F7E88104C543B870EE6 /* REPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5385BD826F3728806B693105F063AEFA /* REPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB38BD625EBEB5296C2CAC0107C9F00A /* RETableViewInlineDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B85B5E4A79789A3D783556FC8AA893D /* RETableViewInlineDatePickerCell.m */; };
+		CDD67F48DCE36A6DE2D1EFB4C231EBA2 /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 315921A0C405E6DA0DAF18A72945341E /* RETableViewCellStyle.m */; };
+		CE53411D6AC61920009F50A83E57601B /* Pods-ARTableViewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B6C1CE99C4969E17A0A37DF5345217 /* Pods-ARTableViewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED7B307D090C5CC22BFF9C5F272409B /* RETableViewOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDB6EC8F718DD01E7A40B24C339F92F /* RETableViewOptionCell.m */; };
+		D14A9BB09EE6CBF57748C6C6DACD71F0 /* RETableViewNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F12936710DFF022923FF281641CD7D /* RETableViewNumberCell.m */; };
+		D345DDE65D9E9C49500F531CAE296AA9 /* RETableViewNumberCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CD13043D334A5EB45FDDE699A46F9CC2 /* RETableViewNumberCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3CA670FA0C1D0713F66BF5F0FAE4CF4 /* Card_Amex.png in Sources */ = {isa = PBXBuildFile; fileRef = 5B40ECF55D26FA53DFCD4C01BE568026 /* Card_Amex.png */; };
+		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDDA19E9988AC6DF4D380F926C4FE54 /* UIImage+Snapshot.m */; };
 		D6D01F4AE510BE8B7CE2DBEAA949A628 /* Pods-ARTableViewManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C77BFC0185D1FBE55BD91FEC4B8E34C /* Pods-ARTableViewManager_Tests-dummy.m */; };
-		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		EF96E3CCC39F781D78D3E7FC70C89013 /* ARTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B57B6636055A6B9C4EEFC4BDE42A9E92 /* ARTableViewManager-dummy.m */; };
-		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */; };
-		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */; };
-		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		F77FF9FB48395E599480745792D45D27 /* Pods-ARTableViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F82561C64F87CD97C7087D5CD51681 /* Pods-ARTableViewManager_Example-dummy.m */; };
+		DD385786D0ED2E1A7E57BAD780AC4727 /* REValidation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AF5303350B85BD4F83D2EABD5B0D0E /* REValidation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFADEA2A160AE0AAD1926878C7277780 /* REPresenceValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE30929175C4BDF805FD668BB59566 /* REPresenceValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E2A07AD160E5FA721735512E44F60AD8 /* Pods-ARTableViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F82561C64F87CD97C7087D5CD51681 /* Pods-ARTableViewManager_Example-dummy.m */; };
+		E7E14FF4A3D9DF09C123E2997E64F1C6 /* REActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E740D232230F17641A5FDE27CEC3312 /* REActionBar.m */; };
+		E80815E4A5044A69CF4EBEFBC6C1B3B6 /* NSString+RENumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FCEFFFEC99E9797D06BA90BA2099FC /* NSString+RENumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A8184B73863184B4E52610A3A9C946 /* RETextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 706C7102707F176554AA559415C08092 /* RETextItem.m */; };
+		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 00705D1D6F073110ED71F452184D0E55 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EBCA9686227B7883DE9C29536BB094CE /* Ribbon_Expired.png in Sources */ = {isa = PBXBuildFile; fileRef = 8467F973DE25D99DBCFF4E1AA0D4E882 /* Ribbon_Expired.png */; };
+		EC5DAAE7D8E1FBA0EDDA06C08649B04D /* RETableViewFloatCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 668C0281255994B56677174BF3C758B2 /* RETableViewFloatCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED7851E8E64A80F8F3088F3FC09DA3F9 /* RETableViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CF80C15028118413183206921D51CB /* RETableViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7E909EB6CAF5D5EEC9CEB8004F679 /* UIKit.framework */; };
+		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2C8357BA3F426EAA75ADBD8765A096 /* QuartzCore.framework */; };
+		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FF7C9C2E4AE2A56B66051A20084EE /* FBSnapshotTestController.m */; };
+		F5772E5FFE20612A1A22544B56F10BFA /* Ribbon_Expired@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 88F6B9441B60433727CDA7E077561199 /* Ribbon_Expired@2x.png */; };
+		FDC5A9BC29379929B95BFA37D5F8A3B4 /* RETableViewOptionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 170E2203E6A93E42D11F602BB9E79926 /* RETableViewOptionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2FBD982F69ADDCA902B2415FC79351 /* REBoolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 946A42287B9D81C4A7F512800877D0F1 /* REBoolItem.m */; };
+		FF5B2DD2E6F3966DD86790978E6A5745 /* UIButtonBarArrowRight.png in Sources */ = {isa = PBXBuildFile; fileRef = 4F0554B00139AFD581A93CCB3C7325B6 /* UIButtonBarArrowRight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F30AF5138D4617083573328E28F1A2E /* PBXContainerItemProxy */ = {
+		0D8DA1B25868234EEFE3E031C0797C60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0BB5EB010D5259ECFCDBC3CC4DA57624;
+			remoteGlobalIDString = CEDDDF391C1B41DE852E3485AE6FB6D9;
+			remoteInfo = "ARTableViewManager-RETableViewManager";
+		};
+		312EAAF7D64652031FE2926699BC94B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0280861C454D1B165B2F7BAAD5D3C7;
+			remoteInfo = REValidation;
+		};
+		B89C44FD48A1983B8D397EB383D1C616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33B32488F54DCE644FBBF31F824D0E4;
 			remoteInfo = ARTableViewManager;
 		};
-		B567EF487C22F9B67DF10DD03D074B50 /* PBXContainerItemProxy */ = {
+		BC61885715E65AA623A9E07AD15D36D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3D82BF8F2CB39CC38E360C637D83371;
-			remoteInfo = "ARTableViewManager-ARTableViewManager";
+			remoteGlobalIDString = 6F3E4087AE11C464CF9A6B5E38A53122;
+			remoteInfo = REFormattedNumberField;
+		};
+		C65AE769EDFCD2C709BE409F47049D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0280861C454D1B165B2F7BAAD5D3C7;
+			remoteInfo = REValidation;
 		};
 		CD4E461CA30FF6946842C8FA6D4C7D44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -63,91 +198,238 @@
 			remoteGlobalIDString = 5DB46EA499F9A5E22765121102FCC34B;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		EC973EFD7F24387DBC0541059659DCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3E4087AE11C464CF9A6B5E38A53122;
+			remoteInfo = REFormattedNumberField;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		06B4128322A376DC75A62A71C214CB49 /* ARTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ARTableViewManager.modulemap; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		00705D1D6F073110ED71F452184D0E55 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		03FE30929175C4BDF805FD668BB59566 /* REPresenceValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REPresenceValidator.m; path = REValidation/Validators/REPresenceValidator.m; sourceTree = "<group>"; };
+		0441FB99FF0AFB0BDFCB2EE5A260DED5 /* REDateTimeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REDateTimeItem.m; sourceTree = "<group>"; };
+		0477EC077BA24B2A207D16C7EC0DF66F /* ARTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARTableViewManager-umbrella.h"; sourceTree = "<group>"; };
+		08C9D3C6DAE7543273131E3A0D362867 /* NSBundle+RETableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RETableViewManager.m"; sourceTree = "<group>"; };
+		0A3F081BFBBA8933D655CB4913D4FFD3 /* REFormattedNumberField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFormattedNumberField.h; path = REFormattedNumberField/REFormattedNumberField.h; sourceTree = "<group>"; };
+		0D2889A6956541DE0DFDD9ABE20FE587 /* REValidation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REValidation-prefix.pch"; sourceTree = "<group>"; };
+		0D48DFCE129FE8B34C3ACF33C755FBC5 /* UIButtonBarArrowRight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "UIButtonBarArrowRight@2x.png"; sourceTree = "<group>"; };
+		0FFA121B73737198852B5EE212DECECC /* REMultipleChoiceItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REMultipleChoiceItem.m; sourceTree = "<group>"; };
+		10F35102F8704D30DBE74603D5FAECD4 /* RESegmentedItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RESegmentedItem.h; sourceTree = "<group>"; };
+		1266EE25D40A06773A9151FFD1E1FBFA /* REFormattedNumberField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REFormattedNumberField-dummy.m"; sourceTree = "<group>"; };
+		1436145C3E6CBEF1DD8C160C0475E279 /* Card_Mastercard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Card_Mastercard@2x.png"; sourceTree = "<group>"; };
+		1545D80C2212732AECA5D7A3F7262BDA /* RETableViewInlinePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewInlinePickerCell.h; sourceTree = "<group>"; };
+		15BB360F9FCEA3E5DE0CFE45F1C0E435 /* ARTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		163E0BA0F68334E36897DC5180A57C44 /* RETextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETextItem.h; sourceTree = "<group>"; };
+		16CF80C15028118413183206921D51CB /* RETableViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewItem.h; sourceTree = "<group>"; };
 		16EA826A1A376CAA8EA4E607262979DD /* Pods-ARTableViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARTableViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		170E2203E6A93E42D11F602BB9E79926 /* RETableViewOptionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewOptionCell.h; sourceTree = "<group>"; };
+		1B1EF97875CD106EB2DC5BDDEB88F022 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C98635A97CB245927E2B2C2211F15AD /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		1E77023A3DA5C97F5E1B88350C3B7318 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAC216F919813B05635340195B2F8B7 /* REPickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REPickerItem.h; sourceTree = "<group>"; };
+		1F1C217DC66A676710C26B64D711028B /* REFormattedNumberField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFormattedNumberField-umbrella.h"; sourceTree = "<group>"; };
+		217FF7C9C2E4AE2A56B66051A20084EE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		24C66080CD3DD1B3A1B35639F585A956 /* REValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REValidation.h; path = REValidation/REValidation.h; sourceTree = "<group>"; };
+		2645D529DBE5F777CE64F8C743015E90 /* Card_Discover@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Card_Discover@2x.png"; sourceTree = "<group>"; };
+		2B2A13F4348B93C3118FE2CEF4D275D4 /* REValidation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = REValidation.modulemap; sourceTree = "<group>"; };
+		2FB5EDE129FBB0D6BC0C345C5C683AC7 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		30F88CFA3E544B8C4797FD7C7E193287 /* Pods-ARTableViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARTableViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		315921A0C405E6DA0DAF18A72945341E /* RETableViewCellStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewCellStyle.m; sourceTree = "<group>"; };
+		31CDB713EF10CBA6A2CCCB056340CA17 /* NSString+RETableViewManagerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+RETableViewManagerAdditions.m"; sourceTree = "<group>"; };
+		33723863A6E46B661480E814CD704FC0 /* RETableViewLongTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewLongTextCell.h; sourceTree = "<group>"; };
+		35B73C5732CBDEDF00E56D06B43F62D9 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		35E2754D080AA4178B7BC717E7DB39B0 /* Pods-ARTableViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTableViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		49756F98B93979AA18315A0A4137FEC2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BAF23C7F2F837DCDF2BD68041BA6FF5 /* ARTableViewManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARTableViewManager-umbrella.h"; sourceTree = "<group>"; };
-		4F0933FA22A314FD50EB50D14044C9D1 /* ARTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARTableViewManager.xcconfig; sourceTree = "<group>"; };
+		388A4579B82CC185319D49EE348EE6C9 /* REEmailValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REEmailValidator.h; path = REValidation/Validators/REEmailValidator.h; sourceTree = "<group>"; };
+		3976A68946B0F5BD639D86DC8FA22196 /* RECreditCardItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RECreditCardItem.h; sourceTree = "<group>"; };
+		3A268840376CDC5CEC64FF835D559C86 /* RETableViewSegmentedCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewSegmentedCell.h; sourceTree = "<group>"; };
+		3DE6C538F44180CE2544A270478B8BAA /* REEmailValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REEmailValidator.m; path = REValidation/Validators/REEmailValidator.m; sourceTree = "<group>"; };
+		3EF7C8D7372DF970527993B2D86350E5 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		3F2ED61C0CC6E1784F9366C159326BF6 /* REValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REValidator.m; path = REValidation/REValidator.m; sourceTree = "<group>"; };
+		410B9E7455DB3CFBB4035E3AE71A859F /* RETableViewTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewTextCell.h; sourceTree = "<group>"; };
+		45FCEFFFEC99E9797D06BA90BA2099FC /* NSString+RENumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RENumberFormat.h"; path = "REFormattedNumberField/NSString+RENumberFormat.h"; sourceTree = "<group>"; };
+		48F12936710DFF022923FF281641CD7D /* RETableViewNumberCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewNumberCell.m; sourceTree = "<group>"; };
+		49F1A5778C2392ECEE1AA4B4947664FF /* Card_Stack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Card_Stack@2x.png"; sourceTree = "<group>"; };
+		4A0D38F166D546B1C3B462D93B7A21B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		4A26266091223BC76FBCE01BCFDA0F14 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4A427AE0EB57478D2AD967F536989F99 /* ARTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARTableViewManager-prefix.pch"; sourceTree = "<group>"; };
+		4B85B5E4A79789A3D783556FC8AA893D /* RETableViewInlineDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewInlineDatePickerCell.m; sourceTree = "<group>"; };
+		4D4DBC645DCB2D8E152893225C905EBA /* Card_Visa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Card_Visa.png; sourceTree = "<group>"; };
+		4DA3C8A70C67646878573D713C0E9AE6 /* Card_Amex@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Card_Amex@2x.png"; sourceTree = "<group>"; };
+		4F0554B00139AFD581A93CCB3C7325B6 /* UIButtonBarArrowRight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = UIButtonBarArrowRight.png; sourceTree = "<group>"; };
 		50365DC37633A2EAD0E354DCE7C691AC /* Pods-ARTableViewManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARTableViewManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		5352658EF514396A641CE64E9FE984F5 /* Pods_ARTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTableViewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		621E91FA8D6B058BBF7D0ACEACEF9E03 /* ResourceBundle-ARTableViewManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ARTableViewManager-Info.plist"; sourceTree = "<group>"; };
-		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5121A8C101C8BE881E1E84B220DFDE74 /* NSBundle+RETableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RETableViewManager.h"; sourceTree = "<group>"; };
+		52B7F5D5C727094FF9F6A2F3B738237B /* RETableViewFloatCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewFloatCell.m; sourceTree = "<group>"; };
+		5385BD826F3728806B693105F063AEFA /* REPlaceholderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REPlaceholderTextView.h; sourceTree = "<group>"; };
+		549D72C904F09741F80BA8237C0FAD04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54ECDA546B702D99FDB5B7BDA2C531BE /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		54FF177B35BDF3DF532A180103DE4D52 /* RETableViewLongTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewLongTextCell.m; sourceTree = "<group>"; };
+		596ED794622439252049F1DAD887751F /* RETableViewOptionsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewOptionsController.m; sourceTree = "<group>"; };
+		5B1045E6B71B9C8EE8A55333489639F7 /* REURLValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REURLValidator.h; path = REValidation/Validators/REURLValidator.h; sourceTree = "<group>"; };
+		5B2C8357BA3F426EAA75ADBD8765A096 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5B40ECF55D26FA53DFCD4C01BE568026 /* Card_Amex.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Card_Amex.png; sourceTree = "<group>"; };
+		5B77A2DA815C33D1B4E67749A902E81B /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		5F5A025E263655456BAA0D844074E24C /* RENumberItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RENumberItem.m; sourceTree = "<group>"; };
+		635D45FAD1E32968F4B089EDE39243FB /* Card_Back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Card_Back@2x.png"; sourceTree = "<group>"; };
+		649854F9F753D498E5C5C8B0E58B37E7 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		66818DC23B4487E02E9ACD8B11AA1BB9 /* RETableViewSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewSection.h; sourceTree = "<group>"; };
+		668C0281255994B56677174BF3C758B2 /* RETableViewFloatCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewFloatCell.h; sourceTree = "<group>"; };
+		6B3FE8F1BFF93F2D538280AB55E5B687 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		6E740D232230F17641A5FDE27CEC3312 /* REActionBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REActionBar.m; sourceTree = "<group>"; };
+		6FCC6F9FFE2B952DFDDC99D061F84AC2 /* RETableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewCell.h; sourceTree = "<group>"; };
+		706C7102707F176554AA559415C08092 /* RETextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETextItem.m; sourceTree = "<group>"; };
+		70AF5303350B85BD4F83D2EABD5B0D0E /* REValidation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REValidation-umbrella.h"; sourceTree = "<group>"; };
+		70FBD339E2EE8E1A5C52F1D950F528D1 /* REPickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REPickerItem.m; sourceTree = "<group>"; };
+		719CBD6CBE52B807F5ECD8FD867BBB84 /* REPlaceholderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REPlaceholderTextView.m; sourceTree = "<group>"; };
 		727AF459D05554F6CB3500BB9DF8EE15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		736876830440C13AF4A6F105562E4B4D /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		747B6B293A73112FEC3E3223255DB155 /* REInlinePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REInlinePickerItem.m; sourceTree = "<group>"; };
+		74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74F85FD574E46A363FB3E1FEC3192D42 /* RETableViewDateTimeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewDateTimeCell.h; sourceTree = "<group>"; };
+		76F16400735FBD95EFDE199805A94981 /* Pods_ARTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTableViewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77011F4599095FB6FEA224E3D155FBFF /* Pods-ARTableViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTableViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8A27EC5C48422A7F0BC40C6695278B30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78EB5CC371D82D1379381E7F6A7925F4 /* RETableViewSegmentedCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewSegmentedCell.m; sourceTree = "<group>"; };
+		79D7E909EB6CAF5D5EEC9CEB8004F679 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A04B8375DF0F6929147B0E0A357B471 /* RETableViewSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewSection.m; sourceTree = "<group>"; };
+		7A3497B484CE59D84FFEB16EF3B9B3E3 /* RESegmentedItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RESegmentedItem.m; sourceTree = "<group>"; };
+		7A587C4CC515D80AE1DB229487EAFEA0 /* ARTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARTableViewManager.xcconfig; sourceTree = "<group>"; };
+		7AE8FA410800E88A3DDD2507BCDFBD64 /* RERadioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RERadioItem.h; sourceTree = "<group>"; };
+		7BC28882025037A7ABF7C215D820A370 /* Card_Back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Card_Back.png; sourceTree = "<group>"; };
+		7BC5DBF6C0BD47DCC7A749CAFADCD4B6 /* REInlineDatePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REInlineDatePickerItem.h; sourceTree = "<group>"; };
+		7D7FF371F15D71B7A58A3276B573D3A8 /* RETableViewCellStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewCellStyle.h; sourceTree = "<group>"; };
+		80269A0FFD34778A857F48D10878697C /* RETableViewBoolCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewBoolCell.h; sourceTree = "<group>"; };
+		803F67A4C37000D7A14FD396A23D46F3 /* REInlineDatePickerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REInlineDatePickerItem.m; sourceTree = "<group>"; };
+		8230709876263968BCF93D55A401EC2F /* Transparent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Transparent@2x.png"; sourceTree = "<group>"; };
+		828845428C77E38C8C41E10C284D164D /* RELengthValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RELengthValidator.m; path = REValidation/Validators/RELengthValidator.m; sourceTree = "<group>"; };
+		8345E91CBBA4621200C9130FEEF1A2C7 /* RETableViewInlineDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewInlineDatePickerCell.h; sourceTree = "<group>"; };
+		8467F973DE25D99DBCFF4E1AA0D4E882 /* Ribbon_Expired.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Ribbon_Expired.png; sourceTree = "<group>"; };
+		85B85AB1624B574AFAE2A0E75D19958B /* NSString+RETableViewManagerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+RETableViewManagerAdditions.h"; sourceTree = "<group>"; };
+		85FDA3EEFE6D698BCF0E8045B5B6B390 /* RETableViewManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETableViewManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		862022FFA78BD3D4EBAC457781D687EF /* REFormattedNumberField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REFormattedNumberField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AFD3D91E18C52947408FDCF6061FD7 /* RETableViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewItem.m; sourceTree = "<group>"; };
+		88F6B9441B60433727CDA7E077561199 /* Ribbon_Expired@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Ribbon_Expired@2x.png"; sourceTree = "<group>"; };
 		8C77BFC0185D1FBE55BD91FEC4B8E34C /* Pods-ARTableViewManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARTableViewManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		8D2D9C874C74DB7800E23AD9FB4758D3 /* REFormattedNumberField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REFormattedNumberField.xcconfig; sourceTree = "<group>"; };
+		8F1F9B58D9B4281D74765721003DB474 /* RETableViewCreditCardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewCreditCardCell.h; sourceTree = "<group>"; };
+		8F4157891D8F4E2F092A96A653BC05A5 /* RETableViewPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewPickerCell.m; sourceTree = "<group>"; };
+		8F4DC4DBF9104344C6FF1E9AD13A101C /* RETableViewPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewPickerCell.h; sourceTree = "<group>"; };
+		9077FF9D9B8B6133E9C969AB4A054F90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DA26462B27B96B080AD98E54FAB44A /* Card_Mastercard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Card_Mastercard.png; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9426B52EF54F4237F10D0E55CFDC6315 /* Pods_ARTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTableViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9450AA3FCF37786995BAF2F831B937C8 /* REBoolItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REBoolItem.h; sourceTree = "<group>"; };
+		946A42287B9D81C4A7F512800877D0F1 /* REBoolItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REBoolItem.m; sourceTree = "<group>"; };
+		965CC3B23A0D852F9D3A70EDD012E8ED /* RERadioItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RERadioItem.m; sourceTree = "<group>"; };
+		9715D1228EBFB7CAF8C5F617621CF7FE /* REFloatItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = REFloatItem.m; sourceTree = "<group>"; };
 		97CD4BDCA2EAFA50ED74BDD673E90272 /* Pods-ARTableViewManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARTableViewManager_Tests.modulemap"; sourceTree = "<group>"; };
-		9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		98B90E573A95B195159395E5FE5541A2 /* RELongTextItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RELongTextItem.m; sourceTree = "<group>"; };
+		9AFCE986F0E37E6F44BDBAE6F15E2FAD /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		9B8C3C99A735D32FA8B84998A8D353A5 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		9BC43E218008CB35FE1CF88C4551D51E /* Pods-ARTableViewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTableViewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9BEAD8EC84014419A50F9547A59E5629 /* RETableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewManager.h; sourceTree = "<group>"; };
+		9C560DA7758C2D4A9454C8F6DC4D6525 /* Card_Stack.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Card_Stack.png; sourceTree = "<group>"; };
+		9E3EE889810DF455040BB50797E29150 /* RETableViewInlinePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewInlinePickerCell.m; sourceTree = "<group>"; };
+		A10A0951586EFA8519BCDEAE232BBB0E /* REMultipleChoiceItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REMultipleChoiceItem.h; sourceTree = "<group>"; };
+		A2CA39F9EB89A8BB8954C662357C7923 /* RETableViewTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewTextCell.m; sourceTree = "<group>"; };
 		A42F4DF11BFAB681CB9A07482B917CB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C9277A05AF44928D96B5CE5336E755 /* RELengthValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RELengthValidator.h; path = REValidation/Validators/RELengthValidator.h; sourceTree = "<group>"; };
 		A6B6C1CE99C4969E17A0A37DF5345217 /* Pods-ARTableViewManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARTableViewManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		AA82FA8259FBB335EAAB646EAC3AE5A9 /* Pods_ARTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTableViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA48B92D38E4CE7B6C9B0E23EA06E25F /* RETableViewBoolCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewBoolCell.m; sourceTree = "<group>"; };
+		AD732232269C80E6C160ADB1D1D0D4C5 /* NSError+REValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+REValidation.h"; path = "REValidation/NSError+REValidation.h"; sourceTree = "<group>"; };
+		AEEBB42EE0DB4A338873164DF1572511 /* Card_Visa@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Card_Visa@2x.png"; sourceTree = "<group>"; };
+		AFDDA19E9988AC6DF4D380F926C4FE54 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		B02D30300AC77A171C294BBE271B9505 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		B5096F7D333B8393F7DFF2400952126B /* Pods-ARTableViewManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARTableViewManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B57B6636055A6B9C4EEFC4BDE42A9E92 /* ARTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		B51D31481D4E3B71FC13DDCD72669F4A /* REValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REValidation-dummy.m"; sourceTree = "<group>"; };
 		B5B0D34530835074F20B9A902F42D354 /* Pods-ARTableViewManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARTableViewManager_Example.modulemap"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BBD026E2DA1CB5EEAC7CBD448570BA7E /* ARTableViewManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTableViewManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		B5EE375991ACFCE160C8EDCC212E1545 /* REValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REValidator.h; path = REValidation/REValidator.h; sourceTree = "<group>"; };
+		B7731158E3701D221ECDB84573FA6845 /* REFormattedNumberField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFormattedNumberField-prefix.pch"; sourceTree = "<group>"; };
+		B7C203E0724787726E01AE214DF1914A /* NSString+RENumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RENumberFormat.m"; path = "REFormattedNumberField/NSString+RENumberFormat.m"; sourceTree = "<group>"; };
+		B8656BC53409559161C8C8F2DC22B293 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9781D8F232232347BD756F399D29C35 /* REInlinePickerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REInlinePickerItem.h; sourceTree = "<group>"; };
+		B9B9877ABD48683027E649C89D565DF8 /* NSError+REValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+REValidation.m"; path = "REValidation/NSError+REValidation.m"; sourceTree = "<group>"; };
+		BACF5E39760523E9C2007B87A4E9F491 /* REValidation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REValidation.xcconfig; sourceTree = "<group>"; };
+		BB82BA3FC265170C68712C56426BC3C4 /* ARTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8C162F0AD1BDCB2E79F4D4B606BE28 /* ARTableViewManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ARTableViewManager.modulemap; sourceTree = "<group>"; };
+		BFEB6FE15464D6DF4F40A395F8398D01 /* RETableViewCreditCardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewCreditCardCell.m; sourceTree = "<group>"; };
+		CD13043D334A5EB45FDDE699A46F9CC2 /* RETableViewNumberCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewNumberCell.h; sourceTree = "<group>"; };
 		CD2B2555EB4E67365D399A2D7522ED16 /* Pods-ARTableViewManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARTableViewManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		DB3A256CD6A74ABA0BFB82F6F310AEF3 /* ARTableViewManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARTableViewManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC60F127D79B6365A862CEF76ADEF4A9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D3F76663CE6E67E360AA63E05ACDFCD5 /* RETableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewManager.m; sourceTree = "<group>"; };
+		D69F572FF117C8232750B39B7F29805F /* REFloatItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REFloatItem.h; sourceTree = "<group>"; };
+		D6FFF9FE5760BA71AD72D3DF44BA82CC /* RETableViewDateTimeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewDateTimeCell.m; sourceTree = "<group>"; };
+		D883D634149B263826F107BFEB5239CF /* REFormattedNumberField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = REFormattedNumberField.modulemap; sourceTree = "<group>"; };
+		D9FE5691723CEDAC2E147A2D304258B6 /* RETableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewCell.m; sourceTree = "<group>"; };
+		DA7E00377B96E6D40A9B14BF72ECA7BA /* RETableViewOptionsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RETableViewOptionsController.h; sourceTree = "<group>"; };
+		DB006F6565F0003FEB2A15ED79AFE1B3 /* Card_Discover.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Card_Discover.png; sourceTree = "<group>"; };
+		DB449E85D4D337A633677116FFD29358 /* REDateTimeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REDateTimeItem.h; sourceTree = "<group>"; };
+		DBDB6EC8F718DD01E7A40B24C339F92F /* RETableViewOptionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RETableViewOptionCell.m; sourceTree = "<group>"; };
+		DC22D6FAC8B6197088BEDBC56233A050 /* REValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDDFB12F3CDEE95BD47F56D4AED9E08 /* RENumberItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RENumberItem.h; sourceTree = "<group>"; };
 		DF5FDBCEA07F6C400B68DBCE8DF3D4AC /* Pods-ARTableViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTableViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E04F26C398E829FF1498B6781734FED9 /* ARTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARTableViewManager-prefix.pch"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		DF760DDF095DB0992830BB37C3F6D5EE /* REActionBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = REActionBar.h; sourceTree = "<group>"; };
+		DFF38817A3990DC3876899D3C1AC556A /* RELongTextItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RELongTextItem.h; sourceTree = "<group>"; };
+		E0D6C46696FE12F4E1276A16B485C3B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E0FCE784506D7A9578ABAB8A01215CF0 /* REValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E476569C4416C1DDD0169B6D07DCEDBE /* REFormattedNumberField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFormattedNumberField.m; path = REFormattedNumberField/REFormattedNumberField.m; sourceTree = "<group>"; };
+		E4FCF613633D6D94D649A2AA4310941D /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		E72810F2E16DA2D74252B317FBAC41ED /* REURLValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REURLValidator.m; path = REValidation/Validators/REURLValidator.m; sourceTree = "<group>"; };
 		EAB0A0D1EFD47E57435B14817C4730ED /* Pods-ARTableViewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARTableViewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE481E26C0BA543AAEEE23BAB9F5383C /* ResourceBundle-RETableViewManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RETableViewManager-Info.plist"; sourceTree = "<group>"; };
+		EFC5D803FEEBAE6E0E3AFF956AC5ECBE /* REValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REValidation.m; path = REValidation/REValidation.m; sourceTree = "<group>"; };
 		F0F82561C64F87CD97C7087D5CD51681 /* Pods-ARTableViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARTableViewManager_Example-dummy.m"; sourceTree = "<group>"; };
 		F23DC49438B682F5A02F82396BF39066 /* Pods-ARTableViewManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARTableViewManager_Example-resources.sh"; sourceTree = "<group>"; };
+		F2B585E8AEAE66D9D75AB0794B0680E7 /* UIButtonBarArrowLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "UIButtonBarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		F3B2FA7B141AB7FDDEF3A6B5A0C5FB9D /* REFormattedNumberField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REFormattedNumberField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BB47B10ED4B1CE12467BCC39BAD0BB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		F9CF0D63D7796F84A7FE9C96283F4D11 /* RECreditCardItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RECreditCardItem.m; sourceTree = "<group>"; };
+		FC68720AB2C936ECE094E4CDA9C996E9 /* UIButtonBarArrowLeft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = UIButtonBarArrowLeft.png; sourceTree = "<group>"; };
 		FCB678C1798BDD0CE0A2B6CCE1A25316 /* Pods-ARTableViewManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARTableViewManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCC4EE43683A6322F59DA77138AF27AE /* REPresenceValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REPresenceValidator.h; path = REValidation/Validators/REPresenceValidator.h; sourceTree = "<group>"; };
 		FCDC59239C70AE9CE5B13D4ADF518C57 /* Pods-ARTableViewManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARTableViewManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FD09869E28D7BDAB00EDB4FF6BAE20FF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		222809B48F8B0791C0548AF470B41F72 /* Frameworks */ = {
+		2EF1340FCEDA2B751604916C5A4B2A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFAAE3718C0FEC28F9434FE4E9639FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43991FB5F6EA23AFAFEE9724DF5FA706 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAB06BBD2D7764A0993BEBBD1D76952 /* Frameworks */ = {
+		8058010C150124F547FE10217826B710 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B502E8F6624D17B2581477A2FD7E21C2 /* Foundation.framework in Frameworks */,
+				94B9CC2EB7A0E2BE4533678E0858F182 /* Foundation.framework in Frameworks */,
+				271C6FC9EAC1BAFCDA231066981AB1B1 /* REFormattedNumberField.framework in Frameworks */,
+				BB935E0D7503310129F1B3BEECBA46AC /* REValidation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3E381200E49C744210A31DC37D66A37 /* Frameworks */ = {
+		836C9604532D693E0F11B96599925D29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2112147375616BAF034ED021A7807559 /* Foundation.framework in Frameworks */,
+				6A58D5C738D8F243CABBCB20458F3FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A8071F2CB577E27ACB85409CFD391B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760EE1B5B8423A19D084A7299CBB0A99 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,36 +455,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		016814C41E076CB0B4DB176278AD17FC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7AB6481CFE5F8A7F7E7C212E6398EC0C /* iOS */,
+				BD8C162F0AD1BDCB2E79F4D4B606BE28 /* ARTableViewManager.modulemap */,
+				7A587C4CC515D80AE1DB229487EAFEA0 /* ARTableViewManager.xcconfig */,
+				15BB360F9FCEA3E5DE0CFE45F1C0E435 /* ARTableViewManager-dummy.m */,
+				4A427AE0EB57478D2AD967F536989F99 /* ARTableViewManager-prefix.pch */,
+				0477EC077BA24B2A207D16C7EC0DF66F /* ARTableViewManager-umbrella.h */,
+				B8656BC53409559161C8C8F2DC22B293 /* Info.plist */,
+				EE481E26C0BA543AAEEE23BAB9F5383C /* ResourceBundle-RETableViewManager-Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ARTableViewManager";
 			sourceTree = "<group>";
 		};
-		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
+		0650BDBF7C9C19F974DE77E9770E770B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */,
-				DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */,
-				52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */,
-				CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */,
-				73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */,
-				6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */,
+				9077FF9D9B8B6133E9C969AB4A054F90 /* Info.plist */,
+				D883D634149B263826F107BFEB5239CF /* REFormattedNumberField.modulemap */,
+				8D2D9C874C74DB7800E23AD9FB4758D3 /* REFormattedNumberField.xcconfig */,
+				1266EE25D40A06773A9151FFD1E1FBFA /* REFormattedNumberField-dummy.m */,
+				B7731158E3701D221ECDB84573FA6845 /* REFormattedNumberField-prefix.pch */,
+				1F1C217DC66A676710C26B64D711028B /* REFormattedNumberField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/REFormattedNumberField";
+			sourceTree = "<group>";
+		};
+		08DA6A0B0A9C41425622F02F18BA7486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7DA937428586DD7072C7D31ADD8B4 /* FBSnapshotTestCase */,
+				28CCF833706A0A1100568977A201F060 /* REFormattedNumberField */,
+				E5882AAAF367764D6F98EEDE55977D12 /* REValidation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E037504CE183F3CB4F02F51814BAE3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF7C8D7372DF970527993B2D86350E5 /* FBSnapshotTestCase.modulemap */,
+				FD09869E28D7BDAB00EDB4FF6BAE20FF /* FBSnapshotTestCase.xcconfig */,
+				4A26266091223BC76FBCE01BCFDA0F14 /* FBSnapshotTestCase-dummy.m */,
+				54ECDA546B702D99FDB5B7BDA2C531BE /* FBSnapshotTestCase-prefix.pch */,
+				2FB5EDE129FBB0D6BC0C345C5C683AC7 /* FBSnapshotTestCase-umbrella.h */,
+				1B1EF97875CD106EB2DC5BDDEB88F022 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		1A3C8D04984032B9AC777BE92AED6AD0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+				549D72C904F09741F80BA8237C0FAD04 /* Info.plist */,
+				2B2A13F4348B93C3118FE2CEF4D275D4 /* REValidation.modulemap */,
+				BACF5E39760523E9C2007B87A4E9F491 /* REValidation.xcconfig */,
+				B51D31481D4E3B71FC13DDCD72669F4A /* REValidation-dummy.m */,
+				0D2889A6956541DE0DFDD9ABE20FE587 /* REValidation-prefix.pch */,
+				70AF5303350B85BD4F83D2EABD5B0D0E /* REValidation-umbrella.h */,
 			);
-			path = FBSnapshotTestCase;
+			name = "Support Files";
+			path = "../Target Support Files/REValidation";
+			sourceTree = "<group>";
+		};
+		28CCF833706A0A1100568977A201F060 /* REFormattedNumberField */ = {
+			isa = PBXGroup;
+			children = (
+				45FCEFFFEC99E9797D06BA90BA2099FC /* NSString+RENumberFormat.h */,
+				B7C203E0724787726E01AE214DF1914A /* NSString+RENumberFormat.m */,
+				0A3F081BFBBA8933D655CB4913D4FFD3 /* REFormattedNumberField.h */,
+				E476569C4416C1DDD0169B6D07DCEDBE /* REFormattedNumberField.m */,
+				0650BDBF7C9C19F974DE77E9770E770B /* Support Files */,
+			);
+			path = REFormattedNumberField;
+			sourceTree = "<group>";
+		};
+		2EE805AE6CD1BB8AC67C92AD115B54C3 /* ARTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				B4DE5F2A4C9DDEBE750985AB876D153F /* RETableViewManager */,
+			);
+			path = ARTableViewManager;
 			sourceTree = "<group>";
 		};
 		427DE1B22F5C228CDF929A3A6EFE7247 /* Pods-ARTableViewManager_Tests */ = {
@@ -223,6 +560,50 @@
 			path = "Target Support Files/Pods-ARTableViewManager_Tests";
 			sourceTree = "<group>";
 		};
+		469F8589F011DFF8F236ABF6DDD8529E /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				9450AA3FCF37786995BAF2F831B937C8 /* REBoolItem.h */,
+				946A42287B9D81C4A7F512800877D0F1 /* REBoolItem.m */,
+				3976A68946B0F5BD639D86DC8FA22196 /* RECreditCardItem.h */,
+				F9CF0D63D7796F84A7FE9C96283F4D11 /* RECreditCardItem.m */,
+				DB449E85D4D337A633677116FFD29358 /* REDateTimeItem.h */,
+				0441FB99FF0AFB0BDFCB2EE5A260DED5 /* REDateTimeItem.m */,
+				D69F572FF117C8232750B39B7F29805F /* REFloatItem.h */,
+				9715D1228EBFB7CAF8C5F617621CF7FE /* REFloatItem.m */,
+				7BC5DBF6C0BD47DCC7A749CAFADCD4B6 /* REInlineDatePickerItem.h */,
+				803F67A4C37000D7A14FD396A23D46F3 /* REInlineDatePickerItem.m */,
+				B9781D8F232232347BD756F399D29C35 /* REInlinePickerItem.h */,
+				747B6B293A73112FEC3E3223255DB155 /* REInlinePickerItem.m */,
+				DFF38817A3990DC3876899D3C1AC556A /* RELongTextItem.h */,
+				98B90E573A95B195159395E5FE5541A2 /* RELongTextItem.m */,
+				A10A0951586EFA8519BCDEAE232BBB0E /* REMultipleChoiceItem.h */,
+				0FFA121B73737198852B5EE212DECECC /* REMultipleChoiceItem.m */,
+				DEDDFB12F3CDEE95BD47F56D4AED9E08 /* RENumberItem.h */,
+				5F5A025E263655456BAA0D844074E24C /* RENumberItem.m */,
+				1EAC216F919813B05635340195B2F8B7 /* REPickerItem.h */,
+				70FBD339E2EE8E1A5C52F1D950F528D1 /* REPickerItem.m */,
+				7AE8FA410800E88A3DDD2507BCDFBD64 /* RERadioItem.h */,
+				965CC3B23A0D852F9D3A70EDD012E8ED /* RERadioItem.m */,
+				10F35102F8704D30DBE74603D5FAECD4 /* RESegmentedItem.h */,
+				7A3497B484CE59D84FFEB16EF3B9B3E3 /* RESegmentedItem.m */,
+				163E0BA0F68334E36897DC5180A57C44 /* RETextItem.h */,
+				706C7102707F176554AA559415C08092 /* RETextItem.m */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		4CA2F32D547F30D37AE6CAD28F27D774 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				74BDBB4BE4732DF38885683A87C8B976 /* Foundation.framework */,
+				5B2C8357BA3F426EAA75ADBD8765A096 /* QuartzCore.framework */,
+				79D7E909EB6CAF5D5EEC9CEB8004F679 /* UIKit.framework */,
+				E0D6C46696FE12F4E1276A16B485C3B6 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		4CF69D1E9C6F789EB1BDF002868A6ECC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,48 +613,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5186F7D97119F81DAAC7B4CA472202FD /* Support Files */ = {
+		4D9F80D392DD6D1820A4D5D033B770BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06B4128322A376DC75A62A71C214CB49 /* ARTableViewManager.modulemap */,
-				4F0933FA22A314FD50EB50D14044C9D1 /* ARTableViewManager.xcconfig */,
-				B57B6636055A6B9C4EEFC4BDE42A9E92 /* ARTableViewManager-dummy.m */,
-				E04F26C398E829FF1498B6781734FED9 /* ARTableViewManager-prefix.pch */,
-				4BAF23C7F2F837DCDF2BD68041BA6FF5 /* ARTableViewManager-umbrella.h */,
-				8A27EC5C48422A7F0BC40C6695278B30 /* Info.plist */,
-				621E91FA8D6B058BBF7D0ACEACEF9E03 /* ResourceBundle-ARTableViewManager-Info.plist */,
+				BB82BA3FC265170C68712C56426BC3C4 /* ARTableViewManager.framework */,
+				1E77023A3DA5C97F5E1B88350C3B7318 /* FBSnapshotTestCase.framework */,
+				76F16400735FBD95EFDE199805A94981 /* Pods_ARTableViewManager_Example.framework */,
+				9426B52EF54F4237F10D0E55CFDC6315 /* Pods_ARTableViewManager_Tests.framework */,
+				862022FFA78BD3D4EBAC457781D687EF /* REFormattedNumberField.framework */,
+				85FDA3EEFE6D698BCF0E8045B5B6B390 /* RETableViewManager.bundle */,
+				E0FCE784506D7A9578ABAB8A01215CF0 /* REValidation.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ARTableViewManager";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E0EE72D466E3C680B23CE4E96CE2666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B2FA7B141AB7FDDEF3A6B5A0C5FB9D /* REFormattedNumberField.framework */,
+				DC22D6FAC8B6197088BEDBC56233A050 /* REValidation.framework */,
+				4CA2F32D547F30D37AE6CAD28F27D774 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6A285ADF0F2114953584A36FF13D9D39 /* ARTableViewManager */ = {
 			isa = PBXGroup;
 			children = (
-				711DB59DF4914AD1EC03FA8E50C2B918 /* ARTableViewManager */,
-				5186F7D97119F81DAAC7B4CA472202FD /* Support Files */,
+				2EE805AE6CD1BB8AC67C92AD115B54C3 /* ARTableViewManager */,
+				016814C41E076CB0B4DB176278AD17FC /* Support Files */,
 			);
 			name = ARTableViewManager;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		711DB59DF4914AD1EC03FA8E50C2B918 /* ARTableViewManager */ = {
-			isa = PBXGroup;
-			children = (
-				CB5925FDE5A87CA6A949DFE6F0497891 /* Classes */,
-			);
-			path = ARTableViewManager;
-			sourceTree = "<group>";
-		};
-		7AB6481CFE5F8A7F7E7C212E6398EC0C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */,
-				9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */,
-				23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */,
-				CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -281,19 +652,89 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C2F5D46302ADBE6C17CA4F9B4E50CD74 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				FE0DB78F4C1BF5914A90611E73E97D3B /* Products */,
+				4E0EE72D466E3C680B23CE4E96CE2666 /* Frameworks */,
+				08DA6A0B0A9C41425622F02F18BA7486 /* Pods */,
+				4D9F80D392DD6D1820A4D5D033B770BC /* Products */,
 				4CF69D1E9C6F789EB1BDF002868A6ECC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		803DFF1F36335405420D0BD2C008F144 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+				4A0D38F166D546B1C3B462D93B7A21B1 /* FBSnapshotTestCase.h */,
+				736876830440C13AF4A6F105562E4B4D /* FBSnapshotTestCase.m */,
+				5B77A2DA815C33D1B4E67749A902E81B /* FBSnapshotTestCasePlatform.h */,
+				B02D30300AC77A171C294BBE271B9505 /* FBSnapshotTestCasePlatform.m */,
+				E4FCF613633D6D94D649A2AA4310941D /* FBSnapshotTestController.h */,
+				217FF7C9C2E4AE2A56B66051A20084EE /* FBSnapshotTestController.m */,
+				6B3FE8F1BFF93F2D538280AB55E5B687 /* UIApplication+StrictKeyWindow.h */,
+				9AFCE986F0E37E6F44BDBAE6F15E2FAD /* UIApplication+StrictKeyWindow.m */,
+				00705D1D6F073110ED71F452184D0E55 /* UIImage+Compare.h */,
+				F3BB47B10ED4B1CE12467BCC39BAD0BB /* UIImage+Compare.m */,
+				1C98635A97CB245927E2B2C2211F15AD /* UIImage+Diff.h */,
+				9B8C3C99A735D32FA8B84998A8D353A5 /* UIImage+Diff.m */,
+				649854F9F753D498E5C5C8B0E58B37E7 /* UIImage+Snapshot.h */,
+				AFDDA19E9988AC6DF4D380F926C4FE54 /* UIImage+Snapshot.m */,
 			);
-			name = SwiftSupport;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		849AECAFDA7D66F96A68245CE9FEDF6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B40ECF55D26FA53DFCD4C01BE568026 /* Card_Amex.png */,
+				4DA3C8A70C67646878573D713C0E9AE6 /* Card_Amex@2x.png */,
+				7BC28882025037A7ABF7C215D820A370 /* Card_Back.png */,
+				635D45FAD1E32968F4B089EDE39243FB /* Card_Back@2x.png */,
+				DB006F6565F0003FEB2A15ED79AFE1B3 /* Card_Discover.png */,
+				2645D529DBE5F777CE64F8C743015E90 /* Card_Discover@2x.png */,
+				91DA26462B27B96B080AD98E54FAB44A /* Card_Mastercard.png */,
+				1436145C3E6CBEF1DD8C160C0475E279 /* Card_Mastercard@2x.png */,
+				9C560DA7758C2D4A9454C8F6DC4D6525 /* Card_Stack.png */,
+				49F1A5778C2392ECEE1AA4B4947664FF /* Card_Stack@2x.png */,
+				4D4DBC645DCB2D8E152893225C905EBA /* Card_Visa.png */,
+				AEEBB42EE0DB4A338873164DF1572511 /* Card_Visa@2x.png */,
+				8467F973DE25D99DBCFF4E1AA0D4E882 /* Ribbon_Expired.png */,
+				88F6B9441B60433727CDA7E077561199 /* Ribbon_Expired@2x.png */,
+				8230709876263968BCF93D55A401EC2F /* Transparent@2x.png */,
+				FC68720AB2C936ECE094E4CDA9C996E9 /* UIButtonBarArrowLeft.png */,
+				F2B585E8AEAE66D9D75AB0794B0680E7 /* UIButtonBarArrowLeft@2x.png */,
+				4F0554B00139AFD581A93CCB3C7325B6 /* UIButtonBarArrowRight.png */,
+				0D48DFCE129FE8B34C3ACF33C755FBC5 /* UIButtonBarArrowRight@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A94BD1C4A39395A2D7B419543F7D6174 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				80269A0FFD34778A857F48D10878697C /* RETableViewBoolCell.h */,
+				AA48B92D38E4CE7B6C9B0E23EA06E25F /* RETableViewBoolCell.m */,
+				8F1F9B58D9B4281D74765721003DB474 /* RETableViewCreditCardCell.h */,
+				BFEB6FE15464D6DF4F40A395F8398D01 /* RETableViewCreditCardCell.m */,
+				74F85FD574E46A363FB3E1FEC3192D42 /* RETableViewDateTimeCell.h */,
+				D6FFF9FE5760BA71AD72D3DF44BA82CC /* RETableViewDateTimeCell.m */,
+				668C0281255994B56677174BF3C758B2 /* RETableViewFloatCell.h */,
+				52B7F5D5C727094FF9F6A2F3B738237B /* RETableViewFloatCell.m */,
+				8345E91CBBA4621200C9130FEEF1A2C7 /* RETableViewInlineDatePickerCell.h */,
+				4B85B5E4A79789A3D783556FC8AA893D /* RETableViewInlineDatePickerCell.m */,
+				1545D80C2212732AECA5D7A3F7262BDA /* RETableViewInlinePickerCell.h */,
+				9E3EE889810DF455040BB50797E29150 /* RETableViewInlinePickerCell.m */,
+				33723863A6E46B661480E814CD704FC0 /* RETableViewLongTextCell.h */,
+				54FF177B35BDF3DF532A180103DE4D52 /* RETableViewLongTextCell.m */,
+				CD13043D334A5EB45FDDE699A46F9CC2 /* RETableViewNumberCell.h */,
+				48F12936710DFF022923FF281641CD7D /* RETableViewNumberCell.m */,
+				170E2203E6A93E42D11F602BB9E79926 /* RETableViewOptionCell.h */,
+				DBDB6EC8F718DD01E7A40B24C339F92F /* RETableViewOptionCell.m */,
+				8F4DC4DBF9104344C6FF1E9AD13A101C /* RETableViewPickerCell.h */,
+				8F4157891D8F4E2F092A96A653BC05A5 /* RETableViewPickerCell.m */,
+				3A268840376CDC5CEC64FF835D559C86 /* RETableViewSegmentedCell.h */,
+				78EB5CC371D82D1379381E7F6A7925F4 /* RETableViewSegmentedCell.m */,
+				410B9E7455DB3CFBB4035E3AE71A859F /* RETableViewTextCell.h */,
+				A2CA39F9EB89A8BB8954C662357C7923 /* RETableViewTextCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		AB286ACA387448FAF391989CA5FD46C7 /* Pods-ARTableViewManager_Example */ = {
@@ -314,6 +755,46 @@
 			path = "Target Support Files/Pods-ARTableViewManager_Example";
 			sourceTree = "<group>";
 		};
+		ACC7DA937428586DD7072C7D31ADD8B4 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				803DFF1F36335405420D0BD2C008F144 /* Core */,
+				0E037504CE183F3CB4F02F51814BAE3E /* Support Files */,
+				E8533C3163E59FA01FC8017F89E6A224 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		B4DE5F2A4C9DDEBE750985AB876D153F /* RETableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				5121A8C101C8BE881E1E84B220DFDE74 /* NSBundle+RETableViewManager.h */,
+				08C9D3C6DAE7543273131E3A0D362867 /* NSBundle+RETableViewManager.m */,
+				85B85AB1624B574AFAE2A0E75D19958B /* NSString+RETableViewManagerAdditions.h */,
+				31CDB713EF10CBA6A2CCCB056340CA17 /* NSString+RETableViewManagerAdditions.m */,
+				DF760DDF095DB0992830BB37C3F6D5EE /* REActionBar.h */,
+				6E740D232230F17641A5FDE27CEC3312 /* REActionBar.m */,
+				5385BD826F3728806B693105F063AEFA /* REPlaceholderTextView.h */,
+				719CBD6CBE52B807F5ECD8FD867BBB84 /* REPlaceholderTextView.m */,
+				6FCC6F9FFE2B952DFDDC99D061F84AC2 /* RETableViewCell.h */,
+				D9FE5691723CEDAC2E147A2D304258B6 /* RETableViewCell.m */,
+				7D7FF371F15D71B7A58A3276B573D3A8 /* RETableViewCellStyle.h */,
+				315921A0C405E6DA0DAF18A72945341E /* RETableViewCellStyle.m */,
+				16CF80C15028118413183206921D51CB /* RETableViewItem.h */,
+				87AFD3D91E18C52947408FDCF6061FD7 /* RETableViewItem.m */,
+				9BEAD8EC84014419A50F9547A59E5629 /* RETableViewManager.h */,
+				D3F76663CE6E67E360AA63E05ACDFCD5 /* RETableViewManager.m */,
+				DA7E00377B96E6D40A9B14BF72ECA7BA /* RETableViewOptionsController.h */,
+				596ED794622439252049F1DAD887751F /* RETableViewOptionsController.m */,
+				66818DC23B4487E02E9ACD8B11AA1BB9 /* RETableViewSection.h */,
+				7A04B8375DF0F6929147B0E0A357B471 /* RETableViewSection.m */,
+				A94BD1C4A39395A2D7B419543F7D6174 /* Cells */,
+				469F8589F011DFF8F236ABF6DDD8529E /* Items */,
+				849AECAFDA7D66F96A68245CE9FEDF6B /* Resources */,
+			);
+			path = RETableViewManager;
+			sourceTree = "<group>";
+		};
 		C2F5D46302ADBE6C17CA4F9B4E50CD74 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,53 +803,34 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		CB5925FDE5A87CA6A949DFE6F0497891 /* Classes */ = {
+		E5882AAAF367764D6F98EEDE55977D12 /* REValidation */ = {
 			isa = PBXGroup;
 			children = (
-				DC60F127D79B6365A862CEF76ADEF4A9 /* ReplaceMe.m */,
+				AD732232269C80E6C160ADB1D1D0D4C5 /* NSError+REValidation.h */,
+				B9B9877ABD48683027E649C89D565DF8 /* NSError+REValidation.m */,
+				388A4579B82CC185319D49EE348EE6C9 /* REEmailValidator.h */,
+				3DE6C538F44180CE2544A270478B8BAA /* REEmailValidator.m */,
+				A5C9277A05AF44928D96B5CE5336E755 /* RELengthValidator.h */,
+				828845428C77E38C8C41E10C284D164D /* RELengthValidator.m */,
+				FCC4EE43683A6322F59DA77138AF27AE /* REPresenceValidator.h */,
+				03FE30929175C4BDF805FD668BB59566 /* REPresenceValidator.m */,
+				5B1045E6B71B9C8EE8A55333489639F7 /* REURLValidator.h */,
+				E72810F2E16DA2D74252B317FBAC41ED /* REURLValidator.m */,
+				24C66080CD3DD1B3A1B35639F585A956 /* REValidation.h */,
+				EFC5D803FEEBAE6E0E3AFF956AC5ECBE /* REValidation.m */,
+				B5EE375991ACFCE160C8EDCC212E1545 /* REValidator.h */,
+				3F2ED61C0CC6E1784F9366C159326BF6 /* REValidator.m */,
+				1A3C8D04984032B9AC777BE92AED6AD0 /* Support Files */,
 			);
-			path = Classes;
+			path = REValidation;
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		E8533C3163E59FA01FC8017F89E6A224 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				35B73C5732CBDEDF00E56D06B43F62D9 /* SwiftSupport.swift */,
 			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FE0DB78F4C1BF5914A90611E73E97D3B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BBD026E2DA1CB5EEAC7CBD448570BA7E /* ARTableViewManager.bundle */,
-				DB3A256CD6A74ABA0BFB82F6F310AEF3 /* ARTableViewManager.framework */,
-				49756F98B93979AA18315A0A4137FEC2 /* FBSnapshotTestCase.framework */,
-				5352658EF514396A641CE64E9FE984F5 /* Pods_ARTableViewManager_Example.framework */,
-				AA82FA8259FBB335EAAB646EAC3AE5A9 /* Pods_ARTableViewManager_Tests.framework */,
-			);
-			name = Products;
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,19 +851,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		509489B487211DFC13732AF855EC6D00 /* Headers */ = {
+		8B15694C988C93C7967D97CD5ABD6A68 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A21BFB52E6963C14A511F278719ACCE /* ARTableViewManager-umbrella.h in Headers */,
+				E80815E4A5044A69CF4EBEFBC6C1B3B6 /* NSString+RENumberFormat.h in Headers */,
+				1743E6039BC0B108EB86D9D5327DD82F /* REFormattedNumberField-umbrella.h in Headers */,
+				AC4C82F6003A84FC44674A14594303F0 /* REFormattedNumberField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9644F16A0FF7918FC1BA853A40B08CF6 /* Headers */ = {
+		9365398C1756EAD9204ACD32D128C3D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C388F4730062B38A350F7C9C017030 /* Pods-ARTableViewManager_Example-umbrella.h in Headers */,
+				03B0589F6BD8A0A32152393B01541E48 /* NSError+REValidation.h in Headers */,
+				127D62734D50338A5097C100402C6B07 /* REEmailValidator.h in Headers */,
+				BFBE68E6DFFC9F057A416F51024D6573 /* RELengthValidator.h in Headers */,
+				3D40CE418A623DC52113D9EBB88E19E5 /* REPresenceValidator.h in Headers */,
+				7C9D4BB5150D99D40E42FF2D28DB1858 /* REURLValidator.h in Headers */,
+				DD385786D0ED2E1A7E57BAD780AC4727 /* REValidation-umbrella.h in Headers */,
+				4FE78145551D1C500649165DBDE340F9 /* REValidation.h in Headers */,
+				286136495B774A4280F8600CB6F60A64 /* REValidator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,28 +884,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC73299A80A98898A17C085EA1F838E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFB4F301D53358B7FCD820282431A38 /* ARTableViewManager-umbrella.h in Headers */,
+				5067139BB20D8936BD7F148535DC25E6 /* NSBundle+RETableViewManager.h in Headers */,
+				7F4C85AA5DA643C1B4C3BCD37BE3FEAF /* NSString+RETableViewManagerAdditions.h in Headers */,
+				728923C86916AE9D2BB5FAD3011D6972 /* REActionBar.h in Headers */,
+				1072ECE345868C3880598E5E2A3475FA /* REBoolItem.h in Headers */,
+				327EF0779682B3B394DA26DC032943BC /* RECreditCardItem.h in Headers */,
+				C22F42D73CBC207ED800B3F5E9AD5106 /* REDateTimeItem.h in Headers */,
+				2FD8A7B2AD03EE4C8A8AE8D353A1E298 /* REFloatItem.h in Headers */,
+				85364264894BA1A9268B3B2CE6CC4BAC /* REInlineDatePickerItem.h in Headers */,
+				750304194F20DC33B25F826F82676DD8 /* REInlinePickerItem.h in Headers */,
+				AFDB63A7112C1D8C402168B4E542F68B /* RELongTextItem.h in Headers */,
+				BACEE5E75561ADBD536C7B36E13E4BF1 /* REMultipleChoiceItem.h in Headers */,
+				3D7C08730F2FBCF2ABCFFB2BEA886CDD /* RENumberItem.h in Headers */,
+				814A4965844AFEE158B8D18F3A8B6A11 /* REPickerItem.h in Headers */,
+				C6E220AA4EFD1F7E88104C543B870EE6 /* REPlaceholderTextView.h in Headers */,
+				489CB620C327EAE336C1B80E558BA429 /* RERadioItem.h in Headers */,
+				ADF117E1A740BEEA046E9767E3CECFBC /* RESegmentedItem.h in Headers */,
+				6ECE1F8F57C8AC0876931F8A530B232A /* RETableViewBoolCell.h in Headers */,
+				696DAB119B1F9F94FA28A8DC2F4BF7CA /* RETableViewCell.h in Headers */,
+				2F64899C5D23D86D9F088D766CA14471 /* RETableViewCellStyle.h in Headers */,
+				702A88881C2E45B36B647C1E55A07FAF /* RETableViewCreditCardCell.h in Headers */,
+				2445159EE42E5F5243A37CB5405595F9 /* RETableViewDateTimeCell.h in Headers */,
+				EC5DAAE7D8E1FBA0EDDA06C08649B04D /* RETableViewFloatCell.h in Headers */,
+				17EA966D13E22A98987203FCD592396E /* RETableViewInlineDatePickerCell.h in Headers */,
+				0BC846BF57A741DD5CDCF98A5C07821E /* RETableViewInlinePickerCell.h in Headers */,
+				ED7851E8E64A80F8F3088F3FC09DA3F9 /* RETableViewItem.h in Headers */,
+				B192709E6E039BCE86001D01AB41C83B /* RETableViewLongTextCell.h in Headers */,
+				91F00C5FD0F624345B255202FC9990ED /* RETableViewManager.h in Headers */,
+				D345DDE65D9E9C49500F531CAE296AA9 /* RETableViewNumberCell.h in Headers */,
+				FDC5A9BC29379929B95BFA37D5F8A3B4 /* RETableViewOptionCell.h in Headers */,
+				5D9DB9A61436C93ADFE2F247D73E088A /* RETableViewOptionsController.h in Headers */,
+				09D337329ACA617CA6B9F2249D5189BE /* RETableViewPickerCell.h in Headers */,
+				3DB01DECE55708AA31D10A15BF60FFB8 /* RETableViewSection.h in Headers */,
+				03EB0C3DCF66BBF00C29F94357F96B87 /* RETableViewSegmentedCell.h in Headers */,
+				198C306143FA766A074A6B6E2C607F42 /* RETableViewTextCell.h in Headers */,
+				4DA499E95A8CB04A687F775663014D69 /* RETextItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD6DF92CDDA2CE3FA87F77DA3BF05C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53411D6AC61920009F50A83E57601B /* Pods-ARTableViewManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BB5EB010D5259ECFCDBC3CC4DA57624 /* ARTableViewManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15E57488F687BCCBC4C051D75D265085 /* Build configuration list for PBXNativeTarget "ARTableViewManager" */;
-			buildPhases = (
-				CDEB0BD09BDBD76D21476119A2D534E0 /* Sources */,
-				CAAB06BBD2D7764A0993BEBBD1D76952 /* Frameworks */,
-				B3869E8F5BDC8A4DA2125CED863ED2CE /* Resources */,
-				509489B487211DFC13732AF855EC6D00 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1B727194E13ACBD028D6CB728044C55C /* PBXTargetDependency */,
-			);
-			name = ARTableViewManager;
-			productName = ARTableViewManager;
-			productReference = DB3A256CD6A74ABA0BFB82F6F310AEF3 /* ARTableViewManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		208BE2D926A195D936E5A6EE95A266C4 /* Pods-ARTableViewManager_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1713617A9AEC15E941279A68CD54BEE /* Build configuration list for PBXNativeTarget "Pods-ARTableViewManager_Tests" */;
@@ -450,25 +953,7 @@
 			);
 			name = "Pods-ARTableViewManager_Tests";
 			productName = "Pods-ARTableViewManager_Tests";
-			productReference = AA82FA8259FBB335EAAB646EAC3AE5A9 /* Pods_ARTableViewManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3E6A2BE4BB62A8787E5125F97080BBD7 /* Pods-ARTableViewManager_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3A900ED36723BF77833C024A7CF140E /* Build configuration list for PBXNativeTarget "Pods-ARTableViewManager_Example" */;
-			buildPhases = (
-				CBEA68310443D325EBC9F6C8693030D0 /* Sources */,
-				E3E381200E49C744210A31DC37D66A37 /* Frameworks */,
-				9644F16A0FF7918FC1BA853A40B08CF6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4986603A36F7AD185C4E157BD59A2BB8 /* PBXTargetDependency */,
-			);
-			name = "Pods-ARTableViewManager_Example";
-			productName = "Pods-ARTableViewManager_Example";
-			productReference = 5352658EF514396A641CE64E9FE984F5 /* Pods_ARTableViewManager_Example.framework */;
+			productReference = 9426B52EF54F4237F10D0E55CFDC6315 /* Pods_ARTableViewManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
@@ -485,25 +970,100 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 49756F98B93979AA18315A0A4137FEC2 /* FBSnapshotTestCase.framework */;
+			productReference = 1E77023A3DA5C97F5E1B88350C3B7318 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D3D82BF8F2CB39CC38E360C637D83371 /* ARTableViewManager-ARTableViewManager */ = {
+		67CB9C8DFF1306EF67FD7444A1B6454F /* Pods-ARTableViewManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD8872428EB855E4523DD86F5E09C243 /* Build configuration list for PBXNativeTarget "ARTableViewManager-ARTableViewManager" */;
+			buildConfigurationList = 4B9A8626DFD287D2AA9A16500D5ED1EE /* Build configuration list for PBXNativeTarget "Pods-ARTableViewManager_Example" */;
 			buildPhases = (
-				2B6083722AE4F56E3A0CB4BD9240EB6F /* Sources */,
-				222809B48F8B0791C0548AF470B41F72 /* Frameworks */,
-				547D435B63BC5DA756E4AFAAEDF31103 /* Resources */,
+				18C8C79C945BCE1E5C7145A60C840C73 /* Sources */,
+				84A8071F2CB577E27ACB85409CFD391B /* Frameworks */,
+				ECD6DF92CDDA2CE3FA87F77DA3BF05C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A23E745F417CA62B103F5F36BECBA6E /* PBXTargetDependency */,
+				72F5E0F8014C0CE6655D2D7626816AD1 /* PBXTargetDependency */,
+				2ABB80A15C0F76F4D1D06CC5CF74A9FA /* PBXTargetDependency */,
+			);
+			name = "Pods-ARTableViewManager_Example";
+			productName = "Pods-ARTableViewManager_Example";
+			productReference = 76F16400735FBD95EFDE199805A94981 /* Pods_ARTableViewManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F3E4087AE11C464CF9A6B5E38A53122 /* REFormattedNumberField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1D9AC434F4E5F5F3C9501D7DE13CE0 /* Build configuration list for PBXNativeTarget "REFormattedNumberField" */;
+			buildPhases = (
+				0C9716FE37630D35B27F2EFC0BE63925 /* Sources */,
+				836C9604532D693E0F11B96599925D29 /* Frameworks */,
+				8B15694C988C93C7967D97CD5ABD6A68 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ARTableViewManager-ARTableViewManager";
-			productName = "ARTableViewManager-ARTableViewManager";
-			productReference = BBD026E2DA1CB5EEAC7CBD448570BA7E /* ARTableViewManager.bundle */;
+			name = REFormattedNumberField;
+			productName = REFormattedNumberField;
+			productReference = 862022FFA78BD3D4EBAC457781D687EF /* REFormattedNumberField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEDDDF391C1B41DE852E3485AE6FB6D9 /* ARTableViewManager-RETableViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53491838C2886E1DC400683E191200F8 /* Build configuration list for PBXNativeTarget "ARTableViewManager-RETableViewManager" */;
+			buildPhases = (
+				6743BBFD5777480BA4DE98B891EEC08F /* Sources */,
+				43991FB5F6EA23AFAFEE9724DF5FA706 /* Frameworks */,
+				97CEF7FEB2C9F6D03C7A9F791CB7E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARTableViewManager-RETableViewManager";
+			productName = "ARTableViewManager-RETableViewManager";
+			productReference = 85FDA3EEFE6D698BCF0E8045B5B6B390 /* RETableViewManager.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		D33B32488F54DCE644FBBF31F824D0E4 /* ARTableViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6111A534AB36C990ED448B58876FEDC7 /* Build configuration list for PBXNativeTarget "ARTableViewManager" */;
+			buildPhases = (
+				7E61B02A6ACAD3984132D57B4D8242EC /* Sources */,
+				8058010C150124F547FE10217826B710 /* Frameworks */,
+				C198809148D107580868A9C60758BC2E /* Resources */,
+				EC73299A80A98898A17C085EA1F838E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F551FCD263008294391DDCF596963F7 /* PBXTargetDependency */,
+				9E7A3C0E0B0233E6510D2B512F2C4CD1 /* PBXTargetDependency */,
+				4E8DBDC80CFE1E8EC327B469C92E67C0 /* PBXTargetDependency */,
+			);
+			name = ARTableViewManager;
+			productName = ARTableViewManager;
+			productReference = BB82BA3FC265170C68712C56426BC3C4 /* ARTableViewManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF0280861C454D1B165B2F7BAAD5D3C7 /* REValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DCB229A503D578F5DB29683995DCCF /* Build configuration list for PBXNativeTarget "REValidation" */;
+			buildPhases = (
+				797A52633E643140A1CF0A0EDCCFD527 /* Sources */,
+				2EF1340FCEDA2B751604916C5A4B2A70 /* Frameworks */,
+				9365398C1756EAD9204ACD32D128C3D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REValidation;
+			productName = REValidation;
+			productReference = E0FCE784506D7A9578ABAB8A01215CF0 /* REValidation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -522,42 +1082,55 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FE0DB78F4C1BF5914A90611E73E97D3B /* Products */;
+			productRefGroup = 4D9F80D392DD6D1820A4D5D033B770BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BB5EB010D5259ECFCDBC3CC4DA57624 /* ARTableViewManager */,
-				D3D82BF8F2CB39CC38E360C637D83371 /* ARTableViewManager-ARTableViewManager */,
+				D33B32488F54DCE644FBBF31F824D0E4 /* ARTableViewManager */,
+				CEDDDF391C1B41DE852E3485AE6FB6D9 /* ARTableViewManager-RETableViewManager */,
 				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
-				3E6A2BE4BB62A8787E5125F97080BBD7 /* Pods-ARTableViewManager_Example */,
+				67CB9C8DFF1306EF67FD7444A1B6454F /* Pods-ARTableViewManager_Example */,
 				208BE2D926A195D936E5A6EE95A266C4 /* Pods-ARTableViewManager_Tests */,
+				6F3E4087AE11C464CF9A6B5E38A53122 /* REFormattedNumberField */,
+				DF0280861C454D1B165B2F7BAAD5D3C7 /* REValidation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		547D435B63BC5DA756E4AFAAEDF31103 /* Resources */ = {
+		97CEF7FEB2C9F6D03C7A9F791CB7E05A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3869E8F5BDC8A4DA2125CED863ED2CE /* Resources */ = {
+		C198809148D107580868A9C60758BC2E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC6A6B4BCF6220A1C708F292548FC08 /* ARTableViewManager.bundle in Resources */,
+				2D7D8181A1196AC385B7706FF15DA5D6 /* RETableViewManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B6083722AE4F56E3A0CB4BD9240EB6F /* Sources */ = {
+		0C9716FE37630D35B27F2EFC0BE63925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5393397CC46FA77981FE45145F881DDB /* NSString+RENumberFormat.m in Sources */,
+				0F30F30B7C6FA338D6718C750B3C269C /* REFormattedNumberField-dummy.m in Sources */,
+				4C4492DF5D6CB64541558CC5F05E0727 /* REFormattedNumberField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C8C79C945BCE1E5C7145A60C840C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A07AD160E5FA721735512E44F60AD8 /* Pods-ARTableViewManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +1139,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D01F4AE510BE8B7CE2DBEAA949A628 /* Pods-ARTableViewManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6743BBFD5777480BA4DE98B891EEC08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A52633E643140A1CF0A0EDCCFD527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CA54F2F0BB33BB0CA73142E53BB0EA /* NSError+REValidation.m in Sources */,
+				47684CE1E4BB863963311336AAD38706 /* REEmailValidator.m in Sources */,
+				B91E22F59642AADC865AF3ED1D41089E /* RELengthValidator.m in Sources */,
+				DFADEA2A160AE0AAD1926878C7277780 /* REPresenceValidator.m in Sources */,
+				2C361D7E2216D2047C53D586A22E1EE6 /* REURLValidator.m in Sources */,
+				C433704FF7503FB5F77BD3846439AF85 /* REValidation-dummy.m in Sources */,
+				48673763E9EE4B9D14836176A10D0FBE /* REValidation.m in Sources */,
+				27AB0CC1473C3863F3D068F736233364 /* REValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,37 +1180,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBEA68310443D325EBC9F6C8693030D0 /* Sources */ = {
+		7E61B02A6ACAD3984132D57B4D8242EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F77FF9FB48395E599480745792D45D27 /* Pods-ARTableViewManager_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDEB0BD09BDBD76D21476119A2D534E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF96E3CCC39F781D78D3E7FC70C89013 /* ARTableViewManager-dummy.m in Sources */,
-				32C1C1A3AAF8EA7056B9190231D2834F /* ReplaceMe.m in Sources */,
+				006DD470C17458733B85E4DE452AC1D6 /* ARTableViewManager-dummy.m in Sources */,
+				D3CA670FA0C1D0713F66BF5F0FAE4CF4 /* Card_Amex.png in Sources */,
+				BBF8A0F9B11C2A7AEF02CBCAD33E1A8C /* Card_Amex@2x.png in Sources */,
+				66EEFE5F983E27BCFDBDBF66EACB3CFC /* Card_Back.png in Sources */,
+				7C82393E70967B41B5262DEA0370FD1D /* Card_Back@2x.png in Sources */,
+				0001C80451E427E228F783B0D556F559 /* Card_Discover.png in Sources */,
+				1BB27504F8A32BD7AF7EC189127036A6 /* Card_Discover@2x.png in Sources */,
+				4910812ECBD966E9188959E5B520CFF9 /* Card_Mastercard.png in Sources */,
+				537DBAC00861C93D3E7BB47F6C9E142B /* Card_Mastercard@2x.png in Sources */,
+				020C599CDC2460F2B96F447B5E507191 /* Card_Stack.png in Sources */,
+				AA6A9C80F04F3B1B49B50A3F571EB672 /* Card_Stack@2x.png in Sources */,
+				35DDEF0D7832731EE2CA8908BDB2B010 /* Card_Visa.png in Sources */,
+				9C23A995916F8ACCCBE4DFBCCE2FADBC /* Card_Visa@2x.png in Sources */,
+				248DF5D23E1A402B37578E4A1603CFA8 /* NSBundle+RETableViewManager.m in Sources */,
+				AADEEA57DB892C16FB064B1377DA04B7 /* NSString+RETableViewManagerAdditions.m in Sources */,
+				E7E14FF4A3D9DF09C123E2997E64F1C6 /* REActionBar.m in Sources */,
+				FE2FBD982F69ADDCA902B2415FC79351 /* REBoolItem.m in Sources */,
+				586B16EE3F29F8898E66F8924155077A /* RECreditCardItem.m in Sources */,
+				66E7ED1BCB6539CB9542312E9723C19B /* REDateTimeItem.m in Sources */,
+				545DE84FF7E49A73C96104E0B744578A /* REFloatItem.m in Sources */,
+				60905D7403B8B1CA81994DECB658AF5E /* REInlineDatePickerItem.m in Sources */,
+				31D7F56DD95C92B65986B22C50FCDB69 /* REInlinePickerItem.m in Sources */,
+				702C8B132C5B147D6FA78AA2BAD37E84 /* RELongTextItem.m in Sources */,
+				9CD222C1BB44B4B0D55133BAAAD755FF /* REMultipleChoiceItem.m in Sources */,
+				9A36321CE5F6E0CA401FF0037A3BCFE1 /* RENumberItem.m in Sources */,
+				54DA74767F917BE22F48F1F44E210115 /* REPickerItem.m in Sources */,
+				B8568A60FE94CD778AC8C68D89C8F604 /* REPlaceholderTextView.m in Sources */,
+				5248261B7550103F7FAC5BEBCEC145AE /* RERadioItem.m in Sources */,
+				B0BB7BED68279AF384774C0D8BF8039F /* RESegmentedItem.m in Sources */,
+				77525FF155EDFCFB29A09124AB3FCEC7 /* RETableViewBoolCell.m in Sources */,
+				968E218EF6C8AF342F38B8F1AE51C087 /* RETableViewCell.m in Sources */,
+				CDD67F48DCE36A6DE2D1EFB4C231EBA2 /* RETableViewCellStyle.m in Sources */,
+				5A33E853DBF543ACF364845DB208B4C5 /* RETableViewCreditCardCell.m in Sources */,
+				9CB42291C423A88FFFBF6105393677ED /* RETableViewDateTimeCell.m in Sources */,
+				4D5F4637FCD0FC08A907C2EE7E95238F /* RETableViewFloatCell.m in Sources */,
+				CB38BD625EBEB5296C2CAC0107C9F00A /* RETableViewInlineDatePickerCell.m in Sources */,
+				6FF78A3D906C40931D7A18051B7171E9 /* RETableViewInlinePickerCell.m in Sources */,
+				20ABFE0F5F79B826D541865BFDE6E6B8 /* RETableViewItem.m in Sources */,
+				C3E08CE72354FA54ACC1192006804D0F /* RETableViewLongTextCell.m in Sources */,
+				8D80EB2E95687338A21C8A2B4C676ECC /* RETableViewManager.m in Sources */,
+				D14A9BB09EE6CBF57748C6C6DACD71F0 /* RETableViewNumberCell.m in Sources */,
+				CED7B307D090C5CC22BFF9C5F272409B /* RETableViewOptionCell.m in Sources */,
+				996466283E872022A7FFD7F64861A4D0 /* RETableViewOptionsController.m in Sources */,
+				7AD1E9B720823EA677C45F89FFDBEE3E /* RETableViewPickerCell.m in Sources */,
+				5591A87AC4762F4A98ABB74F442A1882 /* RETableViewSection.m in Sources */,
+				855D388BEBF9CC088B247FDF29E6FD63 /* RETableViewSegmentedCell.m in Sources */,
+				6F6CD2B196A1F42BFE9C52D7AA18039C /* RETableViewTextCell.m in Sources */,
+				E9A8184B73863184B4E52610A3A9C946 /* RETextItem.m in Sources */,
+				EBCA9686227B7883DE9C29536BB094CE /* Ribbon_Expired.png in Sources */,
+				F5772E5FFE20612A1A22544B56F10BFA /* Ribbon_Expired@2x.png in Sources */,
+				2DED12567E3571C76AED777C931A62C4 /* Transparent@2x.png in Sources */,
+				2B7E47792CF94DDA7BB0C0F43CECE6FA /* UIButtonBarArrowLeft.png in Sources */,
+				11AA4961F2E01832D058090DEF204966 /* UIButtonBarArrowLeft@2x.png in Sources */,
+				FF5B2DD2E6F3966DD86790978E6A5745 /* UIButtonBarArrowRight.png in Sources */,
+				11982122A9FA0147381DE1F44DC2EFCB /* UIButtonBarArrowRight@2x.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B727194E13ACBD028D6CB728044C55C /* PBXTargetDependency */ = {
+		2ABB80A15C0F76F4D1D06CC5CF74A9FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ARTableViewManager-ARTableViewManager";
-			target = D3D82BF8F2CB39CC38E360C637D83371 /* ARTableViewManager-ARTableViewManager */;
-			targetProxy = B567EF487C22F9B67DF10DD03D074B50 /* PBXContainerItemProxy */;
+			name = REValidation;
+			target = DF0280861C454D1B165B2F7BAAD5D3C7 /* REValidation */;
+			targetProxy = C65AE769EDFCD2C709BE409F47049D8F /* PBXContainerItemProxy */;
 		};
-		4986603A36F7AD185C4E157BD59A2BB8 /* PBXTargetDependency */ = {
+		4E8DBDC80CFE1E8EC327B469C92E67C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REValidation;
+			target = DF0280861C454D1B165B2F7BAAD5D3C7 /* REValidation */;
+			targetProxy = 312EAAF7D64652031FE2926699BC94B4 /* PBXContainerItemProxy */;
+		};
+		6A23E745F417CA62B103F5F36BECBA6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ARTableViewManager;
-			target = 0BB5EB010D5259ECFCDBC3CC4DA57624 /* ARTableViewManager */;
-			targetProxy = 7F30AF5138D4617083573328E28F1A2E /* PBXContainerItemProxy */;
+			target = D33B32488F54DCE644FBBF31F824D0E4 /* ARTableViewManager */;
+			targetProxy = B89C44FD48A1983B8D397EB383D1C616 /* PBXContainerItemProxy */;
+		};
+		72F5E0F8014C0CE6655D2D7626816AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFormattedNumberField;
+			target = 6F3E4087AE11C464CF9A6B5E38A53122 /* REFormattedNumberField */;
+			targetProxy = EC973EFD7F24387DBC0541059659DCA0 /* PBXContainerItemProxy */;
+		};
+		7F551FCD263008294391DDCF596963F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ARTableViewManager-RETableViewManager";
+			target = CEDDDF391C1B41DE852E3485AE6FB6D9 /* ARTableViewManager-RETableViewManager */;
+			targetProxy = 0D8DA1B25868234EEFE3E031C0797C60 /* PBXContainerItemProxy */;
+		};
+		9E7A3C0E0B0233E6510D2B512F2C4CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFormattedNumberField;
+			target = 6F3E4087AE11C464CF9A6B5E38A53122 /* REFormattedNumberField */;
+			targetProxy = BC61885715E65AA623A9E07AD15D36D9 /* PBXContainerItemProxy */;
 		};
 		C12631A30320F9E06D8DF1B5B9F57E8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -664,9 +1328,38 @@
 			};
 			name = Release;
 		};
+		0FE113CCBF41A5C200413CB12EF19A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A587C4CC515D80AE1DB229487EAFEA0 /* ARTableViewManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ARTableViewManager/ARTableViewManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARTableViewManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARTableViewManager/ARTableViewManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ARTableViewManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1EAB35ACB452D210D5CF60F7847CD85B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = FD09869E28D7BDAB00EDB4FF6BAE20FF /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -694,13 +1387,13 @@
 			};
 			name = Debug;
 		};
-		68A5A118FCDFC326D6603411589B5008 /* Release */ = {
+		5271306F67E80628F8D3ABAD6CDB7FB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0933FA22A314FD50EB50D14044C9D1 /* ARTableViewManager.xcconfig */;
+			baseConfigurationReference = 7A587C4CC515D80AE1DB229487EAFEA0 /* ARTableViewManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -713,7 +1406,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ARTableViewManager/ARTableViewManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ARTableViewManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -721,7 +1414,36 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		570C72D5B277030CD18A10F047603360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2D9C874C74DB7800E23AD9FB4758D3 /* REFormattedNumberField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REFormattedNumberField/REFormattedNumberField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFormattedNumberField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REFormattedNumberField/REFormattedNumberField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = REFormattedNumberField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6DF175B0BDB6680E8434FBD7D8A5738F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -757,13 +1479,71 @@
 			};
 			name = Debug;
 		};
-		8D2B86CC47FEA22C247C91C8F73934CD /* Debug */ = {
+		7DE4027846E0F68E1F09D612A23C308A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BC43E218008CB35FE1CF88C4551D51E /* Pods-ARTableViewManager_Example.debug.xcconfig */;
+			baseConfigurationReference = BACF5E39760523E9C2007B87A4E9F491 /* REValidation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REValidation/REValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REValidation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REValidation/REValidation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = REValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99BD176637190A48C50FFE622A4628D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACF5E39760523E9C2007B87A4E9F491 /* REValidation.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REValidation/REValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REValidation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REValidation/REValidation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = REValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE8B32873654CB2CD50F39E0199A72A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77011F4599095FB6FEA224E3D155FBFF /* Pods-ARTableViewManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -776,7 +1556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ARTableViewManager_Example/Pods-ARTableViewManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -788,36 +1568,36 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		9B7E6ECC8AB3EE929075EBE8A3AF15E0 /* Debug */ = {
+		C42B45C2CB8C3BE169D3DA1D987A535E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0933FA22A314FD50EB50D14044C9D1 /* ARTableViewManager.xcconfig */;
+			baseConfigurationReference = 8D2D9C874C74DB7800E23AD9FB4758D3 /* REFormattedNumberField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ARTableViewManager/ARTableViewManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ARTableViewManager/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/REFormattedNumberField/REFormattedNumberField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFormattedNumberField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ARTableViewManager/ARTableViewManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ARTableViewManager;
+				MODULEMAP_FILE = "Target Support Files/REFormattedNumberField/REFormattedNumberField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = REFormattedNumberField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -861,6 +1641,39 @@
 			};
 			name = Debug;
 		};
+		D4D2582ABF7049AC17175C70DD069918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC43E218008CB35FE1CF88C4551D51E /* Pods-ARTableViewManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARTableViewManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARTableViewManager_Example/Pods-ARTableViewManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ARTableViewManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DC11117643E989EB6E02B8CA016B361C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35E2754D080AA4178B7BC717E7DB39B0 /* Pods-ARTableViewManager_Tests.release.xcconfig */;
@@ -894,59 +1707,26 @@
 			};
 			name = Release;
 		};
-		DFBA5674067DBFF82973A0FFDC56257B /* Release */ = {
+		EE9BD1F5986D58D58938B26A5F344894 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77011F4599095FB6FEA224E3D155FBFF /* Pods-ARTableViewManager_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ARTableViewManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ARTableViewManager_Example/Pods-ARTableViewManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ARTableViewManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EB016913E105A43EC67AD4AC7A578603 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0933FA22A314FD50EB50D14044C9D1 /* ARTableViewManager.xcconfig */;
+			baseConfigurationReference = 7A587C4CC515D80AE1DB229487EAFEA0 /* ARTableViewManager.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ARTableViewManager";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ARTableViewManager/ResourceBundle-ARTableViewManager-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ARTableViewManager/ResourceBundle-RETableViewManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ARTableViewManager;
+				PRODUCT_NAME = RETableViewManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = FD09869E28D7BDAB00EDB4FF6BAE20FF /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -973,40 +1753,76 @@
 			};
 			name = Release;
 		};
-		F36DD900687F6B9D9D22BD650822E651 /* Debug */ = {
+		F4BE43FD006D6FEF96295FB77579E0B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0933FA22A314FD50EB50D14044C9D1 /* ARTableViewManager.xcconfig */;
+			baseConfigurationReference = 7A587C4CC515D80AE1DB229487EAFEA0 /* ARTableViewManager.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ARTableViewManager";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ARTableViewManager/ResourceBundle-ARTableViewManager-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ARTableViewManager/ResourceBundle-RETableViewManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ARTableViewManager;
+				PRODUCT_NAME = RETableViewManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15E57488F687BCCBC4C051D75D265085 /* Build configuration list for PBXNativeTarget "ARTableViewManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B7E6ECC8AB3EE929075EBE8A3AF15E0 /* Debug */,
-				68A5A118FCDFC326D6603411589B5008 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9A8626DFD287D2AA9A16500D5ED1EE /* Build configuration list for PBXNativeTarget "Pods-ARTableViewManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D2582ABF7049AC17175C70DD069918 /* Debug */,
+				BE8B32873654CB2CD50F39E0199A72A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53491838C2886E1DC400683E191200F8 /* Build configuration list for PBXNativeTarget "ARTableViewManager-RETableViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9BD1F5986D58D58938B26A5F344894 /* Debug */,
+				F4BE43FD006D6FEF96295FB77579E0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6111A534AB36C990ED448B58876FEDC7 /* Build configuration list for PBXNativeTarget "ARTableViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5271306F67E80628F8D3ABAD6CDB7FB5 /* Debug */,
+				0FE113CCBF41A5C200413CB12EF19A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1D9AC434F4E5F5F3C9501D7DE13CE0 /* Build configuration list for PBXNativeTarget "REFormattedNumberField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570C72D5B277030CD18A10F047603360 /* Debug */,
+				C42B45C2CB8C3BE169D3DA1D987A535E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DCB229A503D578F5DB29683995DCCF /* Build configuration list for PBXNativeTarget "REValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BD176637190A48C50FFE622A4628D8 /* Debug */,
+				7DE4027846E0F68E1F09D612A23C308A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1020,29 +1836,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD8872428EB855E4523DD86F5E09C243 /* Build configuration list for PBXNativeTarget "ARTableViewManager-ARTableViewManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F36DD900687F6B9D9D22BD650822E651 /* Debug */,
-				EB016913E105A43EC67AD4AC7A578603 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C1713617A9AEC15E941279A68CD54BEE /* Build configuration list for PBXNativeTarget "Pods-ARTableViewManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DF175B0BDB6680E8434FBD7D8A5738F /* Debug */,
 				DC11117643E989EB6E02B8CA016B361C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3A900ED36723BF77833C024A7CF140E /* Build configuration list for PBXNativeTarget "Pods-ARTableViewManager_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D2B86CC47FEA22C247C91C8F73934CD /* Debug */,
-				DFBA5674067DBFF82973A0FFDC56257B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

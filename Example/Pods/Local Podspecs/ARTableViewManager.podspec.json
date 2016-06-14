@@ -15,12 +15,30 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "ARTableViewManager/Classes/**/*",
+  "requires_arc": true,
+  "source_files": [
+    "ARTableViewManager/RETableViewManager/**/*",
+    "RETableViewManager/Cells",
+    "RETableViewManager/Items",
+    "RETableViewManager"
+  ],
+  "public_header_files": [
+    "RETableViewManager/Cells/*.h",
+    "RETableViewManager/*.h",
+    "RETableViewManager/Items/*.h"
+  ],
   "resource_bundles": {
-    "ARTableViewManager": [
-      "ARTableViewManager/Assets/*.png"
+    "RETableViewManager": "RETableViewManager/Resources/*"
+  },
+  "preserve_paths": "RETableViewManager/Resources",
+  "dependencies": {
+    "REFormattedNumberField": [
+      "~> 1.1.5"
+    ],
+    "REValidation": [
+      "~> 0.1.4"
     ]
   }
 }
