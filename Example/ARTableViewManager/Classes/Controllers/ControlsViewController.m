@@ -42,7 +42,7 @@
 {
     [super viewDidLoad];
     self.title = @"Controls";
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Values" style:UIBarButtonItemStyleBordered target:self action:@selector(valuesButtonPressed:)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Values" style:UIBarButtonItemStylePlain target:self action:@selector(valuesButtonPressed:)];
     
     // Create manager
     //

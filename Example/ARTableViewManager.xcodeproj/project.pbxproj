@@ -19,7 +19,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		D02E06902A0A8042DE8AD07A /* Pods_ARTableViewManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4645B4AE7035547964CC594E /* Pods_ARTableViewManager_Tests.framework */; };
 		F5B094001D10502E0052F230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B093FF1D10502E0052F230 /* AppDelegate.m */; };
 		F5B0945B1D1050490052F230 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B094391D1050490052F230 /* ControlsViewController.m */; };
 		F5B0945C1D1050490052F230 /* EditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B0943B1D1050490052F230 /* EditingViewController.m */; };
@@ -38,6 +37,32 @@
 		F5B094691D1050490052F230 /* MultilineTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B094571D1050490052F230 /* MultilineTextCell.m */; };
 		F5B0946A1D1050490052F230 /* XIBTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B094591D1050490052F230 /* XIBTestCell.m */; };
 		F5B0946B1D1050490052F230 /* XIBTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B0945A1D1050490052F230 /* XIBTestCell.xib */; };
+		F5B0947A1D1051C70052F230 /* First_Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B0946C1D1051C70052F230 /* First_Alt@2x.png */; };
+		F5B0947B1D1051C70052F230 /* First_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B0946D1D1051C70052F230 /* First_Selected@2x.png */; };
+		F5B0947C1D1051C70052F230 /* First@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B0946E1D1051C70052F230 /* First@2x.png */; };
+		F5B0947D1D1051C70052F230 /* Heart_Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B0946F1D1051C70052F230 /* Heart_Highlighted@2x.png */; };
+		F5B0947E1D1051C70052F230 /* Heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094701D1051C70052F230 /* Heart@2x.png */; };
+		F5B0947F1D1051C70052F230 /* Last_Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094711D1051C70052F230 /* Last_Alt@2x.png */; };
+		F5B094801D1051C70052F230 /* Last_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094721D1051C70052F230 /* Last_Selected@2x.png */; };
+		F5B094811D1051C70052F230 /* Last@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094731D1051C70052F230 /* Last@2x.png */; };
+		F5B094821D1051C70052F230 /* Middle_Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094741D1051C70052F230 /* Middle_Alt@2x.png */; };
+		F5B094831D1051C70052F230 /* Middle_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094751D1051C70052F230 /* Middle_Selected@2x.png */; };
+		F5B094841D1051C70052F230 /* Middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094761D1051C70052F230 /* Middle@2x.png */; };
+		F5B094851D1051C70052F230 /* Single_Alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094771D1051C70052F230 /* Single_Alt@2x.png */; };
+		F5B094861D1051C70052F230 /* Single_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094781D1051C70052F230 /* Single_Selected@2x.png */; };
+		F5B094871D1051C70052F230 /* Single@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B094791D1051C70052F230 /* Single@2x.png */; };
+		F5B094951D1052030052F230 /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B094891D1052030052F230 /* photo1.jpg */; };
+		F5B094961D1052030052F230 /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B0948A1D1052030052F230 /* photo2.jpg */; };
+		F5B094971D1052030052F230 /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B0948B1D1052030052F230 /* photo3.jpg */; };
+		F5B094981D1052030052F230 /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B0948C1D1052030052F230 /* photo4.jpg */; };
+		F5B094991D1052030052F230 /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B0948D1D1052030052F230 /* photo5.jpg */; };
+		F5B0949A1D1052030052F230 /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B0948E1D1052030052F230 /* photo6.jpg */; };
+		F5B0949B1D1052030052F230 /* userpic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B0948F1D1052030052F230 /* userpic1.jpg */; };
+		F5B0949C1D1052030052F230 /* userpic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B094901D1052030052F230 /* userpic2.jpg */; };
+		F5B0949D1D1052030052F230 /* userpic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B094911D1052030052F230 /* userpic3.jpg */; };
+		F5B0949E1D1052030052F230 /* userpic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B094921D1052030052F230 /* userpic4.jpg */; };
+		F5B0949F1D1052030052F230 /* userpic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B094931D1052030052F230 /* userpic5.jpg */; };
+		F5B094A01D1052030052F230 /* userpic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B094941D1052030052F230 /* userpic6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		150F8394FC16BC0846482C5B /* Pods-ARTableViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTableViewManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARTableViewManager_Tests/Pods-ARTableViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4645B4AE7035547964CC594E /* Pods_ARTableViewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTableViewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		576B415BBD2CAD9D6699EAAD /* ARTableViewManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARTableViewManager.podspec; path = ../ARTableViewManager.podspec; sourceTree = "<group>"; };
 		58F7A4C79AA6275EDBD770D9 /* Pods-ARTableViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTableViewManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARTableViewManager_Example/Pods-ARTableViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +98,6 @@
 		A63B5604E3D8623FECD6D4AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A7BF360CF22DC5B8EF4C79AB /* Pods_ARTableViewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTableViewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D187272FD61C1E03F072CBE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D19AACCACC6195575637F898 /* Pods-ARTableViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTableViewManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARTableViewManager_Tests/Pods-ARTableViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B093FE1D10502E0052F230 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5B093FF1D10502E0052F230 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5B094381D1050490052F230 /* ControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsViewController.h; sourceTree = "<group>"; };
@@ -110,6 +133,32 @@
 		F5B094581D1050490052F230 /* XIBTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBTestCell.h; sourceTree = "<group>"; };
 		F5B094591D1050490052F230 /* XIBTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBTestCell.m; sourceTree = "<group>"; };
 		F5B0945A1D1050490052F230 /* XIBTestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBTestCell.xib; sourceTree = "<group>"; };
+		F5B0946C1D1051C70052F230 /* First_Alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First_Alt@2x.png"; sourceTree = "<group>"; };
+		F5B0946D1D1051C70052F230 /* First_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First_Selected@2x.png"; sourceTree = "<group>"; };
+		F5B0946E1D1051C70052F230 /* First@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "First@2x.png"; sourceTree = "<group>"; };
+		F5B0946F1D1051C70052F230 /* Heart_Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heart_Highlighted@2x.png"; sourceTree = "<group>"; };
+		F5B094701D1051C70052F230 /* Heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heart@2x.png"; sourceTree = "<group>"; };
+		F5B094711D1051C70052F230 /* Last_Alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Last_Alt@2x.png"; sourceTree = "<group>"; };
+		F5B094721D1051C70052F230 /* Last_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Last_Selected@2x.png"; sourceTree = "<group>"; };
+		F5B094731D1051C70052F230 /* Last@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Last@2x.png"; sourceTree = "<group>"; };
+		F5B094741D1051C70052F230 /* Middle_Alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Middle_Alt@2x.png"; sourceTree = "<group>"; };
+		F5B094751D1051C70052F230 /* Middle_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Middle_Selected@2x.png"; sourceTree = "<group>"; };
+		F5B094761D1051C70052F230 /* Middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Middle@2x.png"; sourceTree = "<group>"; };
+		F5B094771D1051C70052F230 /* Single_Alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Single_Alt@2x.png"; sourceTree = "<group>"; };
+		F5B094781D1051C70052F230 /* Single_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Single_Selected@2x.png"; sourceTree = "<group>"; };
+		F5B094791D1051C70052F230 /* Single@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Single@2x.png"; sourceTree = "<group>"; };
+		F5B094891D1052030052F230 /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
+		F5B0948A1D1052030052F230 /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
+		F5B0948B1D1052030052F230 /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpg; sourceTree = "<group>"; };
+		F5B0948C1D1052030052F230 /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpg; sourceTree = "<group>"; };
+		F5B0948D1D1052030052F230 /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpg; sourceTree = "<group>"; };
+		F5B0948E1D1052030052F230 /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpg; sourceTree = "<group>"; };
+		F5B0948F1D1052030052F230 /* userpic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic1.jpg; sourceTree = "<group>"; };
+		F5B094901D1052030052F230 /* userpic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic2.jpg; sourceTree = "<group>"; };
+		F5B094911D1052030052F230 /* userpic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic3.jpg; sourceTree = "<group>"; };
+		F5B094921D1052030052F230 /* userpic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic4.jpg; sourceTree = "<group>"; };
+		F5B094931D1052030052F230 /* userpic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic5.jpg; sourceTree = "<group>"; };
+		F5B094941D1052030052F230 /* userpic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +180,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D02E06902A0A8042DE8AD07A /* Pods_ARTableViewManager_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +191,6 @@
 			children = (
 				8F6ED3715D891C732A51AD79 /* Pods-ARTableViewManager_Example.debug.xcconfig */,
 				58F7A4C79AA6275EDBD770D9 /* Pods-ARTableViewManager_Example.release.xcconfig */,
-				D19AACCACC6195575637F898 /* Pods-ARTableViewManager_Tests.debug.xcconfig */,
-				150F8394FC16BC0846482C5B /* Pods-ARTableViewManager_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -203,6 +249,21 @@
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* ARTableViewManager-Prefix.pch */,
+				F5B0946C1D1051C70052F230 /* First_Alt@2x.png */,
+				F5B0946D1D1051C70052F230 /* First_Selected@2x.png */,
+				F5B0946E1D1051C70052F230 /* First@2x.png */,
+				F5B0946F1D1051C70052F230 /* Heart_Highlighted@2x.png */,
+				F5B094701D1051C70052F230 /* Heart@2x.png */,
+				F5B094711D1051C70052F230 /* Last_Alt@2x.png */,
+				F5B094721D1051C70052F230 /* Last_Selected@2x.png */,
+				F5B094731D1051C70052F230 /* Last@2x.png */,
+				F5B094741D1051C70052F230 /* Middle_Alt@2x.png */,
+				F5B094751D1051C70052F230 /* Middle_Selected@2x.png */,
+				F5B094761D1051C70052F230 /* Middle@2x.png */,
+				F5B094771D1051C70052F230 /* Single_Alt@2x.png */,
+				F5B094781D1051C70052F230 /* Single_Selected@2x.png */,
+				F5B094791D1051C70052F230 /* Single@2x.png */,
+				F5B094881D1052030052F230 /* Photos */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -300,6 +361,25 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F5B094881D1052030052F230 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				F5B094891D1052030052F230 /* photo1.jpg */,
+				F5B0948A1D1052030052F230 /* photo2.jpg */,
+				F5B0948B1D1052030052F230 /* photo3.jpg */,
+				F5B0948C1D1052030052F230 /* photo4.jpg */,
+				F5B0948D1D1052030052F230 /* photo5.jpg */,
+				F5B0948E1D1052030052F230 /* photo6.jpg */,
+				F5B0948F1D1052030052F230 /* userpic1.jpg */,
+				F5B094901D1052030052F230 /* userpic2.jpg */,
+				F5B094911D1052030052F230 /* userpic3.jpg */,
+				F5B094921D1052030052F230 /* userpic4.jpg */,
+				F5B094931D1052030052F230 /* userpic5.jpg */,
+				F5B094941D1052030052F230 /* userpic6.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -327,12 +407,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ARTableViewManager_Tests" */;
 			buildPhases = (
-				4AA183240A65BB1E212FA910 /* 📦 Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				2D40BF34F8495CCFFDB75C24 /* 📦 Embed Pods Frameworks */,
-				B2F2E3D34C0C4EB8F84B1971 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,8 +461,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				F5B094801D1051C70052F230 /* Last_Selected@2x.png in Resources */,
+				F5B094951D1052030052F230 /* photo1.jpg in Resources */,
+				F5B0947B1D1051C70052F230 /* First_Selected@2x.png in Resources */,
+				F5B094A01D1052030052F230 /* userpic6.jpg in Resources */,
+				F5B0947A1D1051C70052F230 /* First_Alt@2x.png in Resources */,
+				F5B0947F1D1051C70052F230 /* Last_Alt@2x.png in Resources */,
+				F5B094991D1052030052F230 /* photo5.jpg in Resources */,
+				F5B0949B1D1052030052F230 /* userpic1.jpg in Resources */,
+				F5B0949A1D1052030052F230 /* photo6.jpg in Resources */,
 				F5B0946B1D1050490052F230 /* XIBTestCell.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				F5B094961D1052030052F230 /* photo2.jpg in Resources */,
+				F5B094841D1051C70052F230 /* Middle@2x.png in Resources */,
+				F5B094971D1052030052F230 /* photo3.jpg in Resources */,
+				F5B0949C1D1052030052F230 /* userpic2.jpg in Resources */,
+				F5B094851D1051C70052F230 /* Single_Alt@2x.png in Resources */,
+				F5B0949E1D1052030052F230 /* userpic4.jpg in Resources */,
+				F5B094811D1051C70052F230 /* Last@2x.png in Resources */,
+				F5B0949D1D1052030052F230 /* userpic3.jpg in Resources */,
+				F5B0949F1D1052030052F230 /* userpic5.jpg in Resources */,
+				F5B0947E1D1051C70052F230 /* Heart@2x.png in Resources */,
+				F5B094981D1052030052F230 /* photo4.jpg in Resources */,
+				F5B094871D1051C70052F230 /* Single@2x.png in Resources */,
+				F5B094831D1051C70052F230 /* Middle_Selected@2x.png in Resources */,
+				F5B094821D1051C70052F230 /* Middle_Alt@2x.png in Resources */,
+				F5B094861D1051C70052F230 /* Single_Selected@2x.png in Resources */,
+				F5B0947C1D1051C70052F230 /* First@2x.png in Resources */,
+				F5B0947D1D1051C70052F230 /* Heart_Highlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,36 +503,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D40BF34F8495CCFFDB75C24 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARTableViewManager_Tests/Pods-ARTableViewManager_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4AA183240A65BB1E212FA910 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		50F42CE9AE2E434253845873 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,21 +516,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B2F2E3D34C0C4EB8F84B1971 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARTableViewManager_Tests/Pods-ARTableViewManager_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E59FCB22EE88F90AC232B26D /* 📦 Embed Pods Frameworks */ = {
@@ -665,7 +723,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D19AACCACC6195575637F898 /* Pods-ARTableViewManager_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -689,7 +746,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150F8394FC16BC0846482C5B /* Pods-ARTableViewManager_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

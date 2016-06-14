@@ -2,10 +2,5 @@ use_frameworks!
 
 target 'ARTableViewManager_Example' do
   pod 'ARTableViewManager', :path => '../'
-
-  target 'ARTableViewManager_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+  
 end

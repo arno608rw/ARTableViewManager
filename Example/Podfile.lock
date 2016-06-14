@@ -2,17 +2,11 @@ PODS:
   - ARTableViewManager (0.1.0):
     - REFormattedNumberField (~> 1.1.5)
     - REValidation (~> 0.1.4)
-  - FBSnapshotTestCase (2.1.1):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
-  - FBSnapshotTestCase/Core (2.1.1)
-  - FBSnapshotTestCase/SwiftSupport (2.1.1):
-    - FBSnapshotTestCase/Core
   - REFormattedNumberField (1.1.6)
   - REValidation (0.1.4)
 
 DEPENDENCIES:
   - ARTableViewManager (from `../`)
-  - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   ARTableViewManager:
@@ -20,10 +14,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ARTableViewManager: 77ab7dcc4fecbb716862a34579e490fe120c54b1
-  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
   REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
   REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
 
-PODFILE CHECKSUM: 1e8008ad97bb5aff1765b2f5293d98de48deb17a
+PODFILE CHECKSUM: 6bedeba08143b9e4a718e714548a9a9046726e3f
 
 COCOAPODS: 1.0.0
