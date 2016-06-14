@@ -18,21 +18,16 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": [
-    "ARTableViewManager/RETableViewManager/**/*",
-    "RETableViewManager/Cells",
-    "RETableViewManager/Items",
-    "RETableViewManager"
-  ],
+  "source_files": "ARTableViewManager/RETableViewManager/**/*",
   "public_header_files": [
-    "RETableViewManager/Cells/*.h",
-    "RETableViewManager/*.h",
-    "RETableViewManager/Items/*.h"
+    "ARTableViewManager/RETableViewManager/Cells/*.h",
+    "ARTableViewManager/RETableViewManager/*.h",
+    "ARTableViewManager/RETableViewManager/Items/*.h"
   ],
   "resource_bundles": {
-    "RETableViewManager": "RETableViewManager/Resources/*"
+    "ARTableViewManager": "ARTableViewManager/RETableViewManager/Resources/*"
   },
-  "preserve_paths": "RETableViewManager/Resources",
+  "preserve_paths": "ARTableViewManager/RETableViewManager/Resources",
   "dependencies": {
     "REFormattedNumberField": [
       "~> 1.1.5"

@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, '7.0'
   s.requires_arc = true
-  s.source_files = 'ARTableViewManager/RETableViewManager/**/*', 'RETableViewManager/Cells', 'RETableViewManager/Items', 'RETableViewManager'
-  s.public_header_files = 'RETableViewManager/Cells/*.h', 'RETableViewManager/*.h', 'RETableViewManager/Items/*.h'
-  s.resource_bundle = { 'RETableViewManager' => 'RETableViewManager/Resources/*' }
-  s.preserve_paths = 'RETableViewManager/Resources'
+  s.source_files = 'ARTableViewManager/RETableViewManager/**/*'
+  s.public_header_files = 'ARTableViewManager/RETableViewManager/Cells/*.h', 'ARTableViewManager/RETableViewManager/*.h', 'ARTableViewManager/RETableViewManager/Items/*.h'
+  s.resource_bundle = { 'ARTableViewManager' => 'ARTableViewManager/RETableViewManager/Resources/*' }
+  s.preserve_paths = 'ARTableViewManager/RETableViewManager/Resources'
 
   s.ios.deployment_target = '7.0'
 

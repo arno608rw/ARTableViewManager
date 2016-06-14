@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ARTableViewManager: 497863b8f1d029b735faba9d7076eace619d470d
+  ARTableViewManager: 1d58db989138cd4c1ee13b7542933af3f18142a9
   REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
   REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
 
