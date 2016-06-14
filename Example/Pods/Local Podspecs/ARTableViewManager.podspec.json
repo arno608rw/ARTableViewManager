@@ -1,6 +1,6 @@
 {
   "name": "ARTableViewManager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "The project ARTableViewManager. Thank romaonthego/RETableViewManager",
   "homepage": "https://github.com/arno608rw/ARTableViewManager",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/arno608rw/ARTableViewManager.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "7.0"

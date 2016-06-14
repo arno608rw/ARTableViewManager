@@ -26,6 +26,7 @@
 @property (strong, readwrite, nonatomic) REFloatItem *floatItem;
 @property (strong, readwrite, nonatomic) REDateTimeItem *dateTimeItem;
 @property (strong, readwrite, nonatomic) RERadioItem *radioItem;
+@property (strong, readwrite, nonatomic) RERadioItem *radioItemOption;
 @property (strong, readwrite, nonatomic) REMultipleChoiceItem *multipleChoiceItem;
 @property (strong, readwrite, nonatomic) RELongTextItem *longTextItem;
 @property (strong, readwrite, nonatomic) RECreditCardItem *creditCardItem;
@@ -184,6 +185,40 @@
         //
         [weakSelf.navigationController pushViewController:optionsController animated:YES];
     }];
+    
+    self.radioItemOption = [RERadioItem itemWithTitle:@"Radio" value:@"Option 4" valueId:@"1" valueCode:@"001" selectionHandler:^(RERadioItem *item) {
+        [item deselectRowAnimated:YES]; // same as [weakSelf.tableView deselectRowAtIndexPath:item.indexPath animated:YES];
+        
+        // Generate sample options
+        //
+        NSMutableArray *options = [[NSMutableArray alloc] init];
+        for (NSInteger i = 1; i < 40; i++)
+            [options addObject:[NSString stringWithFormat:@"Option %li", (long) i]];
+        
+        // Present options controller
+        //
+        RETableViewOptionsController *optionsController = [[RETableViewOptionsController alloc] initWithItem:item options:options multipleChoice:NO completionHandler:^(RETableViewItem *selectedItem){
+            [weakSelf.navigationController popViewControllerAnimated:YES];
+            
+            NSLog(@"value = %@ : valueId = %@ : valueCode = %@", item.value,item.valueId,item.valueCode);
+            
+            [item reloadRowWithAnimation:UITableViewRowAnimationNone]; // same as [weakSelf.tableView reloadRowsAtIndexPaths:@[item.indexPath] withRowAnimation:UITableViewRowAnimationNone];
+        }];
+        
+        // Adjust styles
+        //
+        optionsController.delegate = weakSelf;
+        optionsController.style = section.style;
+        if (weakSelf.tableView.backgroundView == nil) {
+            optionsController.tableView.backgroundColor = weakSelf.tableView.backgroundColor;
+            optionsController.tableView.backgroundView = nil;
+        }
+        
+        // Push the options controller
+        //
+        [weakSelf.navigationController pushViewController:optionsController animated:YES];
+    }];
+        
     self.longTextItem = [RELongTextItem itemWithValue:nil placeholder:@"Multiline text field"];
     self.longTextItem.cellHeight = 88;
 
@@ -197,6 +232,7 @@
     [section addItem:self.dateTimeItem];
     [section addItem:self.pickerItem];
     [section addItem:self.radioItem];
+    [section addItem:self.radioItemOption];
     [section addItem:self.multipleChoiceItem];
     [section addItem:self.segmentItem];
     [section addItem:self.segmentItem2];

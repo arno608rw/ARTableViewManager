@@ -28,8 +28,13 @@
 @interface RERadioItem : RETableViewItem
 
 @property (copy, readwrite, nonatomic) NSString *value;
+@property (copy, readwrite, nonatomic) NSString *valueId;
+@property (copy, readwrite, nonatomic) NSString *valueCode;
 
 + (instancetype)itemWithTitle:(NSString *)title value:(NSString *)value selectionHandler:(void(^)(RERadioItem *item))selectionHandler;
++ (instancetype)itemWithTitle:(NSString *)title value:(NSString *)value valueId:(NSString *)valueId valueCode:(NSString *)valueCode selectionHandler:(void(^)(RERadioItem *item))selectionHandler;
+
 - (id)initWithTitle:(NSString *)title value:(NSString *)value selectionHandler:(void(^)(RERadioItem *item))selectionHandler;
+- (id)initWithTitle:(NSString *)title value:(NSString *)value valueId:(NSString *)valueId valueCode:(NSString *)valueCode selectionHandler:(void(^)(RERadioItem *item))selectionHandler;
 
 @end

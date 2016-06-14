@@ -33,6 +33,11 @@
     return [[self alloc] initWithTitle:title value:value selectionHandler:selectionHandler];
 }
 
++ (instancetype)itemWithTitle:(NSString *)title value:(NSString *)value valueId:(NSString *)valueId valueCode:(NSString *)valueCode selectionHandler:(void(^)(RERadioItem *item))selectionHandler
+{
+    return [[self alloc] initWithTitle:title value:value valueId:valueId valueCode:valueCode selectionHandler:selectionHandler];
+}
+
 - (id)initWithTitle:(NSString *)title value:(NSString *)value selectionHandler:(void(^)(RERadioItem *item))selectionHandler
 {
     self = [super init];
@@ -52,10 +57,43 @@
     return self;
 }
 
+- (id)initWithTitle:(NSString *)title value:(NSString *)value valueId:(NSString *)valueId valueCode:(NSString *)valueCode selectionHandler:(void(^)(RERadioItem *item))selectionHandler
+{
+    self = [super init];
+    if (!self)
+        return nil;
+    
+    self.title = title;
+    self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    self.selectionHandler = ^(RERadioItem *item) {
+        [item.section.tableViewManager.tableView endEditing:YES];
+        if (selectionHandler)
+            selectionHandler(item);
+    };
+    self.value = value;
+    self.valueId = valueId;
+    self.valueCode = valueCode;
+    self.style = UITableViewCellStyleValue1;
+    
+    return self;
+}
+
 - (void)setValue:(NSString *)value
 {
     _value = value;
     self.detailLabelText = value;
+}
+
+- (void)setValueId:(NSString *)valueId
+{
+    _valueId = valueId;
+    self.detailLabelTextId = valueId;
+}
+
+- (void)setValueCode:(NSString *)valueCode
+{
+    _valueCode = valueCode;
+    self.detailLabelTextCode = valueCode;
 }
 
 #pragma mark -

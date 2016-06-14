@@ -1,5 +1,5 @@
 PODS:
-  - ARTableViewManager (0.0.1):
+  - ARTableViewManager (0.0.2):
     - REFormattedNumberField (~> 1.1.5)
     - REValidation (~> 0.1.4)
   - REFormattedNumberField (1.1.6)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ARTableViewManager: 1d58db989138cd4c1ee13b7542933af3f18142a9
+  ARTableViewManager: adef9289d8c3082a9412ee5742047ae3168af3fe
   REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
   REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
 

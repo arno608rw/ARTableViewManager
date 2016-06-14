@@ -36,7 +36,7 @@
 @property (strong, readwrite, nonatomic) UIImage *highlightedImage;
 @property (assign, readwrite, nonatomic) NSTextAlignment textAlignment;
 @property (weak, readwrite, nonatomic) RETableViewSection *section;
-@property (copy, readwrite, nonatomic) NSString *detailLabelText;
+@property (copy, readwrite, nonatomic) NSString *detailLabelText,*detailLabelTextId,*detailLabelTextCode;
 @property (assign, readwrite, nonatomic) UITableViewCellStyle style;
 @property (assign, readwrite, nonatomic) UITableViewCellSelectionStyle selectionStyle;
 @property (assign, readwrite, nonatomic) UITableViewCellAccessoryType accessoryType;
