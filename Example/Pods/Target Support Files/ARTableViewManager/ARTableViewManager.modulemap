@@ -1,0 +1,6 @@
+framework module ARTableViewManager {
+  umbrella header "ARTableViewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

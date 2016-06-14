@@ -1,0 +1,23 @@
+PODS:
+  - ARTableViewManager (0.1.0)
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ARTableViewManager (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ARTableViewManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ARTableViewManager: a172fe9ebe455d211fd017af0f888fa4558f32ec
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+
+PODFILE CHECKSUM: 1e8008ad97bb5aff1765b2f5293d98de48deb17a
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,26 @@
+{
+  "name": "ARTableViewManager",
+  "version": "0.1.0",
+  "summary": "The project ARTableViewManager. Thank romaonthego/RETableViewManager",
+  "homepage": "https://github.com/arno608rw/ARTableViewManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thitipong Wongsatho": "arno608rw@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/arno608rw/ARTableViewManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ARTableViewManager/Classes/**/*",
+  "resource_bundles": {
+    "ARTableViewManager": [
+      "ARTableViewManager/Assets/*.png"
+    ]
+  }
+}
