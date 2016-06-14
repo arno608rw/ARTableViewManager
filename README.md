@@ -34,7 +34,7 @@ pod "ARTableViewManager"
 
 ## Author
 
-arnosoft@home, arno608rw@gmail.com
+Thitipong W., arno608rw@gmail.com
 
 ## License
 

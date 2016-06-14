@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ARTableViewManager'
-  s.version          = '0.0.1.2'
+  s.version          = '0.0.2'
   s.summary          = 'The project ARTableViewManager. Thank romaonthego/RETableViewManager'
 
   s.homepage         = 'https://github.com/arno608rw/ARTableViewManager'
